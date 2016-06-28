@@ -1,0 +1,51 @@
+//class selector declare
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+#header {
+  .rounded-corners;
+}
+#footer {
+  .rounded-corners(10px);
+}
+
+//id selector declare
+#rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+#header {
+  #rounded-corners;
+}
+#footer {
+  #rounded-corners(10px);
+}
+
+/*
+ selector(paramVariable)
+ 不初始化:(@param)
+ 默认初始化:(@param: 50px)
+*/
+.corners (@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+#header {
+  .corners(30px);
+}
+#footer {
+  .corners(10px);
+}

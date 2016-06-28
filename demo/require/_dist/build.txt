@@ -1,0 +1,7 @@
+
+app.js
+----------------
+/Users/jackychen/Desktop/Workspace/WebStorm_Workspace/JSDemo/demo/require/src/water.js
+/Users/jackychen/Desktop/Workspace/WebStorm_Workspace/JSDemo/demo/require/src/two.js
+/Users/jackychen/Desktop/Workspace/WebStorm_Workspace/JSDemo/demo/require/src/one.js
+app.js

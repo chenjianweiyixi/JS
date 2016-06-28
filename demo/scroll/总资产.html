@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="false" id="twcClient" name="twcClient">
+	<link href="../../../assets/css/bank2.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../../../assets/lib/jquery/jquery-2.1.1.js"></script>
+	<!--<script type="text/javascript" src="../../../assets/lib/iscroll/iscroll_v4-2.js"></script>-->
+    <!--<script type="text/javascript" src="../../../assets/lib/iscroll/iscroll_paEbank.js"></script>-->
+    <script type="text/javascript" src="../../../assets/lib/iscroll/iscroll_pad.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    var width = $("#PieChartBox").width();
+	    
+	    $("#PieChartBox").css({"width":width, "height":width*0.6 + 5});
+	    $("#PieChart").css("width",width*2);
+	    $("#PieChart li").width(width);
+	    $("#li1,#li2").css({"width":width*0.6,"height":width*0.6});
+	  });
+	</script>
+</head>
+<body>
+<section>
+  <!--head begin-->
+  <header>
+    <div class="div_left"><span class="head_left">返回</span></div>
+    <h1>总资负债</h1>
+  </header>
+  <!--head end-->
+  <!--content begin-->
+  <div class="divContent">
+      <div class="title2 c">
+        <p class="f14">净资产（元）<span class="fr">5,000,000.00</span> </p>
+      </div>
+    <div class="pd_content">
+      <div id="PieChartBox" class="PieChartBox m_t20">
+	    <div style="width: 1161px;">
+			<ul id="PieChart" class="PieChart c">
+			  <li><div id="li1" class=""></div></li>
+			  <li><div id="li2" class=""></div></li>
+			</ul>
+		</div>
+      </div>
+        <ul class="PieChartTab m_t20 c">
+          <li><span class="on"></span></li>
+          <li><span class=""></span></li>
+        </ul>
+      <ul class="AssetsList m_t20">
+        <li class="first c"><span class="w50 tal"><span class="AssetsType1"></span>活期可用余额</span><span class="w10 tac">45.31%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType2"></span>定期存款</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType3"></span>银行理财产品</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType4"></span>基金</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType5"></span>贵金属</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType6"></span>国债</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType7"></span>外汇</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType8"></span>票据</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType9"></span>保证金</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType10"></span>保险</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType11"></span>委托存款</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType12"></span>其他</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType13"></span>车贷</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType14"></span>房贷</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType15"></span>信用卡</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+        <li class="first c"><span class="w50 tal"><span class="AssetsType16"></span>其他</span><span class="w10 tac">45%</span><span class="w40 tar">30,000.00 元</span> </li>
+      </ul>
+      <div class="lh20 f_c_grey m_t20">如想恢复资产负债密码查询验证，请在安全中心-资产负债查询设置中修改。</div>
+    </div>
+  </div>
+  <!--content end-->
+</section>
+
+
+</body>
+</html>

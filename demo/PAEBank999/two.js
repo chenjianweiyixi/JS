@@ -1,0 +1,2 @@
+
+$.ajax({url:"tsconfig.json"})

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>尺寸 Demo</title>  
+       <script type='text/javascript'>
+	       function gets() {
+	       	var s = "";
+	       	
+			s += "<br>当前窗口宽度（包含滚动条大小，与界面内容无关）：window.innerWidth : " + window.innerWidth; 
+			s += "<br>当前窗口高度（包含滚动条大小，与界面内容无关）：window.innerHeight : " + window.innerHeight; 
+			s += "<br>";
+			s += "<br>整个文档的可见宽度（不包含边框）：document.documentElement.clientWidth " + document.documentElement.clientWidth; 
+			s += "<br>整个文档的可见高度（不包含边框）：document.documentElement.clientHeight " + document.documentElement.clientHeight; 
+			s += "<br>整个文档的可见宽度（含边框）：document.documentElement.offsetWidth : " + document.documentElement.offsetWidth; 
+			s += "<br>整个文档的可见高度（含边框）：document.documentElement.offsetHeight : " + document.documentElement.offsetHeight; 
+			s += "<br>整个文档的宽度：document.documentElement.scrollWidth :" + document.documentElement.scrollWidth; 
+			s += "<br>整个文档的高度：document.documentElement.scrollHeight :" + document.documentElement.scrollHeight; 
+			s += "<br>";			
+		    s += "<br>Body标签区域的宽度（不包括两侧的边框宽度）：document.body.clientWidth : "+ document.body.clientWidth; 
+			s += "<br>Body标签区域的高度（不包括两侧的边框高度）：document.body.clientHeight : " + document.body.clientHeight; 
+			s += "<br>Body标签区域的宽度（包括两侧的边框宽度）：document.body.offsetWidth: " + document.body.offsetWidth ; 
+			s += "<br>Body标签区域的高度（包括两侧的边框高度）：document.body.offsetHeight :" + document.body.offsetHeight; 
+			s += "<br>";			
+			s += "<br>不同浏览器body.scrollWidth/scrollHeight实现不一致。";
+			s += "<br>基于webkit的浏览器（chrome和safari）返回的是整个文档的宽度，也就是和document.documentElement.scrollWidth一致";
+			s += "<br>基于webkit的浏览器（chrome和safari）,和document.documentElement.scrollWidth一致：document.body.scrollWidth :" + document.body.scrollWidth; 
+			s += "<br>基于webkit的浏览器（chrome和safari）,和document.documentElement.scrollWidth一致：document.body.scrollHeight : " + document.body.scrollHeight; 
+			s += "<br>";			
+			s += "<br>网页被卷去的高：document.body.scrollTop " + document.body.scrollTop; 
+			s += "<br>网页被卷去的左：document.body.scrollLeft :" + document.body.scrollLeft; 
+			s += "<br>网页正文部分上：window.screenTop : " + window.screenTop; 
+			s += "<br>网页正文部分左：window.screenLeft : " + window.screenLeft; 
+			s += "<br>屏幕分辨率的宽：window.screen.width :" + window.screen.width; 
+			s += "<br>屏幕分辨率的高：window.screen.height :" + window.screen.height; 
+			s += "<br>屏幕可用工作区宽度：window.screen.height : " + window.screen.availWidth; 
+			s += "<br>屏幕可用工作区高度：window.screen.availHeight : " + window.screen.availHeight;
+			document.getElementById('content').innerHTML = s;
+			}
+       </script>
+    </head>
+    <body style="width:800px; height:150px; border:solid 3px red; margin-left:0px;">
+    	
+		<button onclick=gets() >显示尺寸</button>
+		<div   id="content">     </div   id="content">
+	    <div style="height:5000px;width:50px;background-color:gray;"><div>&nbsp;44</div>
+    </body>
+</html>

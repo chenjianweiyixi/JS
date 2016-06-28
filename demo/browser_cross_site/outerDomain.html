@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function bodyOnLoad() {
+            function inFn() {
+                console.info("Outer Page:" + window.name);
+
+//                console.info("Outer Page:" + window.buddle);
+//                console.error("Outer Page:" + JSON.stringify(window.data));
+//                window.data.A = "AAAA";
+            }
+
+            setInterval(inFn, 3000);
+        }
+    </script>
+</head>
+<body  onload="bodyOnLoad()">
+<p> Outer Page!</p>
+</body>
+
+</html>

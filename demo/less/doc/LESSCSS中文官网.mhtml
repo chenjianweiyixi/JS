@@ -1,0 +1,1520 @@
+From: <Saved by Blink>
+Subject: ?? - LESSCSS????
+Date: Fri, 26 May 2016 07:12:16 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_AA30_94D3FF7F.A8B8AD81"
+
+------=_NextPart_000_AA30_94D3FF7F.A8B8AD81
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.1024i.com/demo/less/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+   =20
+    <title>=E9=A6=96=E9=A1=B5 - LESSCSS=E4=B8=AD=E6=96=87=E5=AE=98=E7=BD=91=
+</title>
+    <meta name=3D"description" content=3D"LESSCSS=E4=B8=AD=E6=96=87=E5=AE=
+=98=E7=BD=91">
+    <meta name=3D"keywords" content=3D"LESS,LESSCSS,CSS,=E6=A0=B7=E5=BC=8F=
+=E8=A1=A8,=E9=A2=84=E5=A4=84=E7=90=86">
+    <link rel=3D"stylesheet/less" href=3D"http://www.1024i.com/demo/less/cs=
+s/main.less">
+    <style type=3D"text/css" media=3D"screen" id=3D"less:demo-less-css-main=
+">html {
+  margin: 0;
+}
+body {
+  background-color: #262626;
+  margin: 0 auto;
+  font-family: Arial, hiragino sans gb, microsoft yahei, sans-serif;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+nav,
+header,
+footer,
+section,
+article {
+  display: block;
+}
+a {
+  color: #b83000;
+}
+h1 a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: normal;
+}
+ul, li {
+  /*list-style-type: none;*/
+
+}
+code {
+  font-family: 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', 'Monaco', Co=
+urier, monospace !important;
+}
+code .string, code .regexp {
+  color: #3d575c;
+}
+code .comment {
+  color: rgba(0, 0, 0, 0.5);
+}
+code .number {
+  color: #143352;
+}
+code .class, code .special {
+  color: rgba(0, 50, 100, 0.8);
+}
+pre {
+  padding: 0 30px;
+  text-wrap: wrap;
+  white-space: pre-wrap;
+  /* css-3 */
+
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+
+}
+blockquote {
+  font-style: italic;
+}
+body > footer {
+  text-align: left;
+  margin-left: 10px;
+  font-style: italic;
+  font-size: 18px;
+  color: #888;
+}
+#logo {
+  margin: 30px auto 0 auto;
+  font-size: 48px;
+  font-family: sans-serif;
+  display: block;
+  width: 500px;
+  padding-left: 220px;
+  height: 81px;
+  line-height: 81px;
+  background: url(http://www.1024i.com/demo/less/css/../images/logo.png) no=
+-repeat;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #AAA;
+}
+nav {
+  margin-left: 15px;
+}
+nav a, #dropdown li {
+  display: inline-block;
+  color: white;
+  line-height: 42px;
+  margin: 0;
+  padding: 0px 15px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-width: 0 2px;
+}
+nav a:hover, #dropdown li:hover {
+  border: 2px solid #140805;
+  border-left-color: #3d170f;
+  border-right-color: #3d170f;
+  border-bottom: 0;
+  border-top: 0;
+  background-color: #521f14;
+  text-decoration: none;
+}
+.twitter-follow-button {
+  position: absolute;
+  right: 0;
+  top: 11px;
+}
+.dark-red {
+  border: 2px solid #140805;
+  border-left-color: #3d170f;
+  border-right-color: #3d170f;
+  border-bottom: 0;
+  border-top: 0;
+  background-color: #521f14;
+}
+.content {
+  margin: 0 auto;
+  width: 980px;
+}
+#menu {
+  display: block;
+  background-color: #143352;
+  background-color: rgba(41, 102, 163, 0.4);
+  height: 42px;
+  border-bottom: 2px solid rgba(15, 38, 61, 0.5);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 0 #000;
+}
+#menu:hover {
+  background-color: #143352;
+}
+#menu #dropdown {
+  margin: 0 0 0 117px;
+  padding: 0;
+  padding-top: 5px;
+  display: none;
+  width: 190px;
+  border-top: 2px solid #7a2e1f;
+  color: #eaf2d9;
+  border: 2px solid #140805;
+  border-left-color: #3d170f;
+  border-right-color: #3d170f;
+  border-top-width: 0;
+  background-color: #521f14;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-top-right-radius: 0;
+  -moz-border-top-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+#menu #dropdown ul {
+  padding: 0px;
+}
+#menu #dropdown li {
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  padding: 0;
+  border: 0;
+}
+#menu #dropdown li a {
+  display: block;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: white;
+}
+#menu #dropdown li a:hover {
+  background-color: #3d170f;
+  text-decoration: none;
+}
+#main {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #79c3d2;
+  border-top: 8px solid #66bbcc;
+}
+#main #intro {
+  z-index: 2;
+  font-family: 'Droid Serif', 'Georgia', 'hiragino sans bg', 'microsoft yah=
+ei';
+  padding: 20px 20px 30px 30px;
+  border: 0 none;
+}
+#main #intro #download_wrapper {
+  text-align: center;
+}
+#main #intro #download_wrapper a {
+  display: inline-block;
+  width: 170px;
+  height: 54px;
+  color: #fff;
+  text-align: center;
+  line-height: 54px;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px 10px;
+  padding-left: 20px;
+  position: relative;
+}
+#main #intro #download_wrapper a::after {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(http://www.1024i.com/demo/less/css/../images/icons.png) n=
+o-repeat;
+  position: absolute;
+  left: 15px;
+  top: 13px;
+  content: " ";
+}
+#main #intro #download_wrapper #download_less {
+  background: #d55959;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #d55959 0%, #d25252 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%=
+, #d55959), color-stop(100%, #d25252));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #d55959 0%, #d25252 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #d55959 0%, #d25252 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #d55959 0%, #d25252 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #d55959 0%, #d25252 100%);
+  /* W3C */
+
+  border: 1px solid #C96161;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2), -1px 2px 4px rgba(0, 0, 0, 0.=
+2);
+}
+#main #intro #download_wrapper #download_less:hover {
+  background: #e27473;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #e27473 0%, #de5959 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%=
+, #e27473), color-stop(100%, #de5959));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #e27473 0%, #de5959 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #e27473 0%, #de5959 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #e27473 0%, #de5959 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #e27473 0%, #de5959 100%);
+  /* W3C */
+
+}
+#main #intro #download_wrapper #download_less:active {
+  background: #cb2f2f;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #cb2f2f 0%, #d34e4e 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%=
+, #cb2f2f), color-stop(100%, #d34e4e));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #cb2f2f 0%, #d34e4e 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #cb2f2f 0%, #d34e4e 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #cb2f2f 0%, #d34e4e 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #cb2f2f 0%, #d34e4e 100%);
+  /* W3C */
+
+}
+#main #intro #download_wrapper #download_koala {
+  background: #347fc8;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #347fc8 0%, #336fad 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%=
+, #347fc8), color-stop(100%, #336fad));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #347fc8 0%, #336fad 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #347fc8 0%, #336fad 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #347fc8 0%, #336fad 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #347fc8 0%, #336fad 100%);
+  /* W3C */
+
+  border: 1px solid #4879AA;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2), -1px 2px 4px rgba(0, 0, 0, 0.=
+2);
+}
+#main #intro #download_wrapper #download_koala::after {
+  background-position: -40px 0;
+}
+#main #intro #download_wrapper #download_koala:hover {
+  background: #5895d1;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #5895d1 0%, #4985c2 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%=
+, #5895d1), color-stop(100%, #4985c2));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #5895d1 0%, #4985c2 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #5895d1 0%, #4985c2 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #5895d1 0%, #4985c2 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #5895d1 0%, #4985c2 100%);
+  /* W3C */
+
+}
+#main #intro #download_wrapper #download_koala:active {
+  background: #28639e;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #28639e 0%, #3677b8 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%=
+, #28639e), color-stop(100%, #3677b8));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #28639e 0%, #3677b8 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #28639e 0%, #3677b8 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #28639e 0%, #3677b8 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #28639e 0%, #3677b8 100%);
+  /* W3C */
+
+}
+#main #intro #download-info {
+  text-align: center;
+  font-size: 12px;
+  color: #476685;
+}
+#main #intro #download-info a {
+  text-decoration: none;
+  color: #143352;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+#main #intro #download-info a:hover {
+  text-decoration: none;
+  border-bottom: 1px dashed #143352;
+}
+#main h2 {
+  color: #143352;
+  margin: 20px 0;
+  font-size: 24px;
+  line-height: 1.2em;
+}
+#main h2 span {
+  color: #7a2e1f;
+}
+#main h3 {
+  color: #143352;
+  line-height: 1.4em;
+  margin: 30px 0 15px 0;
+  font-size: 1em;
+  text-shadow: 0px 0px 0px #e6ebe0;
+}
+#main h3 span {
+  color: #7a2e1f;
+}
+#main #example {
+  height: 282px;
+  background: url(http://www.1024i.com/demo/less/css/../images/banner_code.=
+png) center 0 no-repeat;
+}
+.page {
+  margin: 0 auto;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0 60px;
+}
+.page .content {
+  width: 870px;
+  padding: 45px;
+}
+.page code {
+  font-size: 16px;
+}
+.page pre {
+  border-width: 1px;
+  border-style: dashed;
+  padding: 15px;
+  margin: 15px 0;
+}
+.page h1 {
+  text-align: left;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+.page p + h1 {
+  margin-top: 60px;
+}
+.page h2, .page h3 {
+  margin: 30px 0 15px 0;
+}
+.page p + h2, .page pre + h2, .page code + h2 {
+  border-top: 6px solid rgba(255, 255, 255, 0.1);
+  padding-top: 30px;
+}
+.page h3 {
+  margin: 15px 0;
+}
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6 {
+  font-family: hiragino sans gb,microsoft yahei,serif;
+}
+.page-light {
+  border-top: 2px solid #9fd5df;
+  color: #143352;
+  background-color: #79c3d2;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+.page-light ul li {
+  list-style-type: circle;
+}
+.page-light h1 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  padding-top: 30px;
+  padding-left: 45px;
+  font-size: 44px;
+  text-align: left;
+  margin: 30px 0 !important;
+  text-shadow: 0px 1px 1px #e6ebe0;
+  font-weight: bold;
+}
+.page-light .content {
+  clear: both;
+  border-color: transparent;
+  background-color: #d9eef2;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+.page-light pre {
+  color: #1f4c7a;
+  background-color: #ffffff;
+  border-color: #d9eef2;
+  border-width: 2px;
+}
+.page-light pre code .attribute {
+  color: #735926;
+}
+.page-light pre code .variable {
+  color: #455445;
+}
+.page-light pre code .element {
+  color: #3d5c57;
+}
+.page-light pre code .string, .page-light pre .regexp {
+  color: #70862d;
+}
+.page-light pre code .class {
+  color: #6b572e;
+  font-weight: normal;
+}
+.page-light pre code .id {
+  color: #6b612e;
+  font-weight: normal;
+}
+.page-light pre code .comment {
+  color: rgba(0, 0, 0, 0.4);
+}
+.page-light pre code .number, .page-light pre .color {
+  color: #6b382e;
+}
+.page-light pre code .class, .page-light pre code .mixin, .page-light pre .=
+special {
+  color: #3d575c;
+}
+.page-light pre code {
+  font-size: 15px;
+}
+.page-light p + h2, .page-light pre + h2, .page-light code + h2 {
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+.page-light h3,
+.page-light h4,
+.page-light h5,
+.page-light h6 {
+  border-left: 3px solid #143352;
+  padding-left: 10px;
+}
+#reference .content h1 {
+  padding: 0;
+  font-size: 1.6em;
+}
+#reference .content h3 {
+  font-weight: bold;
+}
+#reference .content p + h1, #reference .content pre + h1, #reference .conte=
+nt code + h1 {
+  border-top: 6px solid rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+}
+#reference .content p + h3, #reference .content pre + h3, #reference .conte=
+nt code + h3 {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+}
+td {
+  padding-right: 30px;
+}
+#synopsis {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+#synopsis h2, #about h2, #translations h2 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+#synopsis h1 + h2, #about h1 + h2, #translations h1 + h2 {
+  margin-top: 15px;
+}
+#synopsis h3, #about h3, #translations h3 {
+  font-size: 22px;
+}
+#synopsis .code-example, #about .code-example, #translations .code-example =
+{
+  border-spacing: 0;
+  border-width: 1px;
+  border-style: dashed;
+  padding: 0;
+}
+#synopsis .code-example pre, #about .code-example pre, #translations .code-=
+example pre {
+  border: 0;
+  margin: 0;
+}
+#synopsis .code-example td, #about .code-example td, #translations .code-ex=
+ample td {
+  border: 0;
+  margin: 0;
+  background-color: #191919;
+  vertical-align: top;
+  padding: 0;
+}
+#synopsis .code-example tr, #about .code-example tr, #translations .code-ex=
+ample tr {
+  padding: 0;
+}
+#synopsis .css-output td, #about .css-output td, #translations .css-output =
+td {
+  border-left: 0;
+}
+#synopsis .css-output,
+#about .css-output,
+#translations .css-output,
+#synopsis .less-example,
+#about .less-example,
+#translations .less-example {
+  width: 390px;
+}
+#synopsis pre, #about pre, #translations pre {
+  padding: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.page-dark {
+  text-shadow: 0 -1px 1px #262626;
+  color: #eaf2d9;
+  background-color: #191919;
+}
+.page-dark a {
+  text-decoration: none;
+  color: #fbfbcb;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+.page-dark a:hover {
+  text-decoration: none;
+  border-bottom: 1px dashed #fbfbcb;
+}
+.page-dark .content {
+  background-color: #262626;
+  clear: both;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+.page-dark h1, .page-dark h2, .page-dark h3 {
+  color: #e2e2b1;
+}
+.page-dark pre {
+  background-color: #191919;
+  border-color: #f9f9b3;
+}
+.page-dark pre code .attribute {
+  color: #d9bf8c;
+}
+.page-dark pre code .variable {
+  color: #738c73;
+}
+.page-dark pre code .element {
+  color: #669991;
+}
+.page-dark pre code .string, .page-dark pre .regexp {
+  color: #bcd279;
+}
+.page-dark pre code .class {
+  color: #c2a770;
+  font-weight: normal;
+}
+.page-dark pre code .id {
+  color: #c2b470;
+  font-weight: normal;
+}
+.page-dark pre code .comment {
+  color: rgba(255, 255, 255, 0.2);
+}
+.page-dark pre code .number, .page-dark pre .color {
+  color: #b35e4d;
+}
+.page-dark pre code .class, .page-dark pre code .mixin, .page-dark pre .spe=
+cial {
+  color: #669199;
+}
+.page-dark code {
+  color: #dcdc9e;
+}
+.page-dark code .string, .page-dark code .regexp {
+  color: #87bbc5;
+}
+.page-dark code .keyword {
+  color: #735926;
+  font-weight: normal;
+}
+.page-dark code .comment {
+  color: rgba(255, 255, 255, 0.2);
+}
+.page-dark code .number {
+  color: #1f4c7a;
+}
+.page-dark code .class, .page-dark code .special {
+  color: #669199;
+}
+.page-dark h3,
+.page-dark h4,
+.page-dark h5,
+.page-dark h6 {
+  border-left: 3px solid #eaf2d9;
+  padding-left: 10px;
+}
+#usage {
+  background-color: #262626;
+}
+#usage .content {
+  background-color: transparent;
+}
+#about, #translations {
+  background-color: #262626 !important;
+}
+#about .content, #translations .content {
+  background-color: #2e2e2e;
+}
+#synopsis {
+  background-color: #2e2e2e !important;
+}
+#synopsis .content {
+  background-color: #2e2e2e;
+}
+#synopsis .content, #usage .content {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+#about footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 6px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.35);
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.02);
+}
+#about footer #copy {
+  font-size: 12px;
+}
+</style>
+  </head>
+  <body>
+    <section id=3D"menu">
+      <div class=3D"content">
+        <nav><a href=3D"http://www.1024i.com/demo/less/index.html">=E9=A6=
+=96=E9=A1=B5</a><a href=3D"http://www.1024i.com/demo/less/document.html">=
+=E8=AF=AD=E8=A8=80=E7=89=B9=E6=80=A7</a><a href=3D"http://www.1024i.com/dem=
+o/less/reference.html">=E5=87=BD=E6=95=B0=E6=89=8B=E5=86=8C</a></nav>
+      </div>
+    </section>
+    <section>
+      <header id=3D"main">
+        <div class=3D"content">
+          <section id=3D"intro" class=3D"page">
+            <div id=3D"logo"> is More , Than CSS</div>
+          </section>
+        </div>
+        <div style=3D"clear: both"></div>
+      </header>
+    </section>
+    <section id=3D"synopsis" class=3D"page page-dark">
+      <div class=3D"content"><h2>=E4=BB=80=E4=B9=88=E6=98=AFLESSCSS</h2>
+
+<p>LESSCSS=E6=98=AF=E4=B8=80=E7=A7=8D=E5=8A=A8=E6=80=81=E6=A0=B7=E5=BC=8F=
+=E8=AF=AD=E8=A8=80=EF=BC=8C=E5=B1=9E=E4=BA=8ECSS=E9=A2=84=E5=A4=84=E7=90=86=
+=E8=AF=AD=E8=A8=80=E7=9A=84=E4=B8=80=E7=A7=8D=EF=BC=8C=E5=AE=83=E4=BD=BF=E7=
+=94=A8=E7=B1=BB=E4=BC=BCCSS=E7=9A=84=E8=AF=AD=E6=B3=95=EF=BC=8C=E4=B8=BACSS=
+=E7=9A=84=E8=B5=8B=E4=BA=88=E4=BA=86=E5=8A=A8=E6=80=81=E8=AF=AD=E8=A8=80=E7=
+=9A=84=E7=89=B9=E6=80=A7=EF=BC=8C=E5=A6=82=E5=8F=98=E9=87=8F=E3=80=81=E7=BB=
+=A7=E6=89=BF=E3=80=81=E8=BF=90=E7=AE=97=E3=80=81=E5=87=BD=E6=95=B0=E7=AD=89=
+=EF=BC=8C=E6=9B=B4=E6=96=B9=E4=BE=BFCSS=E7=9A=84=E7=BC=96=E5=86=99=E5=92=8C=
+=E7=BB=B4=E6=8A=A4=E3=80=82</p>
+
+<p>LESSCSS=E5=8F=AF=E4=BB=A5=E5=9C=A8=E5=A4=9A=E7=A7=8D=E8=AF=AD=E8=A8=80=
+=E3=80=81=E7=8E=AF=E5=A2=83=E4=B8=AD=E4=BD=BF=E7=94=A8=EF=BC=8C=E5=8C=85=E6=
+=8B=AC=E6=B5=8F=E8=A7=88=E5=99=A8=E7=AB=AF=E3=80=81=E6=A1=8C=E9=9D=A2=E5=AE=
+=A2=E6=88=B7=E7=AB=AF=E3=80=81=E6=9C=8D=E5=8A=A1=E7=AB=AF=E3=80=82</p>
+
+<p>=E8=AF=AD=E8=A8=80=E7=89=B9=E6=80=A7=E5=BF=AB=E9=80=9F=E9=A2=84=E8=A7=88=
+=EF=BC=9A</p>
+
+<h3>=E5=8F=98=E9=87=8F=EF=BC=9A</h3>
+
+<p>=E5=8F=98=E9=87=8F=E5=85=81=E8=AE=B8=E6=88=91=E4=BB=AC=E5=8D=95=E7=8B=AC=
+=E5=AE=9A=E4=B9=89=E4=B8=80=E7=B3=BB=E5=88=97=E9=80=9A=E7=94=A8=E7=9A=84=E6=
+=A0=B7=E5=BC=8F=EF=BC=8C=E7=84=B6=E5=90=8E=E5=9C=A8=E9=9C=80=E8=A6=81=E7=9A=
+=84=E6=97=B6=E5=80=99=E5=8E=BB=E8=B0=83=E7=94=A8=E3=80=82=E6=89=80=E4=BB=A5=
+=E5=9C=A8=E5=81=9A=E5=85=A8=E5=B1=80=E6=A0=B7=E5=BC=8F=E8=B0=83=E6=95=B4=E7=
+=9A=84=E6=97=B6=E5=80=99=E6=88=91=E4=BB=AC=E5=8F=AF=E8=83=BD=E5=8F=AA=E9=9C=
+=80=E8=A6=81=E4=BF=AE=E6=94=B9=E5=87=A0=E8=A1=8C=E4=BB=A3=E7=A0=81=E5=B0=B1=
+=E5=8F=AF=E4=BB=A5=E4=BA=86=E3=80=82</p>
+
+<p>LESS=E6=BA=90=E7=A0=81=EF=BC=9A</p>
+
+<pre><code><span class=3D"variable">@color</span>: <span class=3D"color">#4=
+D926F</span>;
+
+<span class=3D"id">#header</span> {
+    <span class=3D"attribute">color</span>: <span class=3D"variable">@color=
+</span>;
+}
+<span class=3D"element">h2</span> {
+    <span class=3D"attribute">color</span>: <span class=3D"variable">@color=
+</span>;
+}
+</code></pre>
+
+<p>=E7=BC=96=E8=AF=91=E5=90=8E=E7=9A=84CSS=EF=BC=9A</p>
+
+<pre><code><span class=3D"id">#header</span> {
+    <span class=3D"attribute">color</span>: <span class=3D"color">#4D926F</=
+span>;
+}
+<span class=3D"element">h2</span> {
+    <span class=3D"attribute">color</span>: <span class=3D"color">#4D926F</=
+span>;
+}
+</code></pre>
+
+<h3>=E6=B7=B7=E5=90=88=EF=BC=88Mixins=EF=BC=89</h3>
+
+<p>=E6=B7=B7=E5=90=88=E5=8F=AF=E4=BB=A5=E5=B0=86=E4=B8=80=E4=B8=AA=E5=AE=9A=
+=E4=B9=89=E5=A5=BD=E7=9A=84class A=E8=BD=BB=E6=9D=BE=E7=9A=84=E5=BC=95=E5=
+=85=A5=E5=88=B0=E5=8F=A6=E4=B8=80=E4=B8=AAclass B=E4=B8=AD=EF=BC=8C=E4=BB=
+=8E=E8=80=8C=E7=AE=80=E5=8D=95=E5=AE=9E=E7=8E=B0class B=E7=BB=A7=E6=89=BFcl=
+ass A=E4=B8=AD=E7=9A=84=E6=89=80=E6=9C=89=E5=B1=9E=E6=80=A7=E3=80=82=E6=88=
+=91=E4=BB=AC=E8=BF=98=E5=8F=AF=E4=BB=A5=E5=B8=A6=E5=8F=82=E6=95=B0=E5=9C=B0=
+=E8=B0=83=E7=94=A8=EF=BC=8C=E5=B0=B1=E5=83=8F=E4=BD=BF=E7=94=A8=E5=87=BD=E6=
+=95=B0=E4=B8=80=E6=A0=B7=E3=80=82</p>
+
+<p>LESS=E6=BA=90=E7=A0=81=EF=BC=9A</p>
+
+<pre><code><span class=3D"class">.rounded-corners</span> (<span class=3D"va=
+riable">@radius</span>: <span class=3D"number">5px</span>) {
+    <span class=3D"attribute">-webkit-border-radius</span>: <span class=3D"=
+variable">@radius</span>;
+    <span class=3D"attribute">-moz-border-radius</span>: <span class=3D"var=
+iable">@radius</span>;
+    <span class=3D"attribute">-ms-border-radius</span>: <span class=3D"vari=
+able">@radius</span>;
+    <span class=3D"attribute">-o-border-radius</span>: <span class=3D"varia=
+ble">@radius</span>;
+    <span class=3D"attribute">border-radius</span>: <span class=3D"variable=
+">@radius</span>;
+}
+
+<span class=3D"id">#header</span> {
+    <span class=3D"mixin">.rounded-corners</span>;
+}
+<span class=3D"id">#footer</span> {
+    <span class=3D"mixin">.rounded-corners</span>(<span class=3D"number">10=
+px</span>);
+}
+</code></pre>
+
+<p>=E7=BC=96=E8=AF=91=E5=90=8E=E7=9A=84CSS=EF=BC=9A</p>
+
+<pre><code><span class=3D"id">#header</span> {
+    <span class=3D"attribute">-webkit-border-radius</span>: <span class=3D"=
+number">5px</span>;
+    <span class=3D"attribute">-moz-border-radius</span>: <span class=3D"num=
+ber">5px</span>;
+    <span class=3D"attribute">-ms-border-radius</span>: <span class=3D"numb=
+er">5px</span>;
+    <span class=3D"attribute">-o-border-radius</span>: <span class=3D"numbe=
+r">5px</span>;
+    <span class=3D"attribute">border-radius</span>: <span class=3D"number">=
+5px</span>;
+}
+<span class=3D"id">#footer</span> {
+    <span class=3D"attribute">-webkit-border-radius</span>: <span class=3D"=
+number">10px</span>;
+    <span class=3D"attribute">-moz-border-radius</span>: <span class=3D"num=
+ber">10px</span>;
+    <span class=3D"attribute">-ms-border-radius</span>: <span class=3D"numb=
+er">10px</span>;
+    <span class=3D"attribute">-o-border-radius</span>: <span class=3D"numbe=
+r">10px</span>;
+    <span class=3D"attribute">border-radius</span>: <span class=3D"number">=
+10px</span>;
+}
+</code></pre>
+
+<h3>=E5=B5=8C=E5=A5=97</h3>
+
+<p>=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=A5=E5=9C=A8=E4=B8=80=E4=B8=AA=E9=80=89=
+=E6=8B=A9=E5=99=A8=E4=B8=AD=E5=B5=8C=E5=A5=97=E5=8F=A6=E4=B8=80=E4=B8=AA=E9=
+=80=89=E6=8B=A9=E5=99=A8=E6=9D=A5=E5=AE=9E=E7=8E=B0=E7=BB=A7=E6=89=BF=EF=BC=
+=8C=E8=BF=99=E6=A0=B7=E5=BE=88=E5=A4=A7=E7=A8=8B=E5=BA=A6=E5=87=8F=E5=B0=91=
+=E4=BA=86=E4=BB=A3=E7=A0=81=E9=87=8F=EF=BC=8C=E5=B9=B6=E4=B8=94=E4=BB=A3=E7=
+=A0=81=E7=9C=8B=E8=B5=B7=E6=9D=A5=E6=9B=B4=E5=8A=A0=E7=9A=84=E6=B8=85=E6=99=
+=B0=E3=80=82</p>
+
+<p>LESS=E6=BA=90=E7=A0=81=EF=BC=9A</p>
+
+<pre><code><span class=3D"id">#header</span> {
+    <span class=3D"element">h1</span> {
+        <span class=3D"attribute">font-size</span>: <span class=3D"number">=
+26px</span>;
+        <span class=3D"attribute">font-weight</span>: bold;
+    }
+    <span class=3D"element">p</span> {
+        <span class=3D"attribute">font-size</span>: <span class=3D"number">=
+12px</span>;
+        <span class=3D"element">a</span> {
+            <span class=3D"attribute">text-decoration</span>: none;
+            &amp;<span class=3D"class">:hover</span> {
+                <span class=3D"attribute">border-width</span>: <span class=
+=3D"number">1px</span>
+            }
+        }
+    }
+}
+</code></pre>
+
+<p>=E7=BC=96=E8=AF=91=E5=90=8E=E7=9A=84CSS=EF=BC=9A</p>
+
+<pre><code><span class=3D"id">#header</span> <span class=3D"element">h1</sp=
+an> {
+    <span class=3D"attribute">font-size</span>: <span class=3D"number">26px=
+</span>;
+    <span class=3D"attribute">font-weight</span>: bold;
+}
+<span class=3D"id">#header</span> <span class=3D"element">p</span> {
+    <span class=3D"attribute">font-size</span>: <span class=3D"number">12px=
+</span>;
+}
+<span class=3D"id">#header</span> <span class=3D"element">p</span> <span cl=
+ass=3D"element">a</span> {
+    <span class=3D"attribute">text-decoration</span>: none;
+}
+<span class=3D"id">#header</span> <span class=3D"element">p</span> <span cl=
+ass=3D"element">a</span><span class=3D"class">:hover</span> {
+    <span class=3D"attribute">border-width</span>: <span class=3D"number">1=
+px</span>;
+}
+</code></pre>
+
+<h3>=E5=87=BD=E6=95=B0=E5=92=8C=E8=BF=90=E7=AE=97</h3>
+
+<p>=E8=BF=90=E7=AE=97=E6=8F=90=E4=BE=9B=E4=BA=86=E5=8A=A0=EF=BC=8C=E5=87=8F=
+=EF=BC=8C=E4=B9=98=EF=BC=8C=E9=99=A4=E6=93=8D=E4=BD=9C=EF=BC=9B=E6=88=91=E4=
+=BB=AC=E5=8F=AF=E4=BB=A5=E5=81=9A=E5=B1=9E=E6=80=A7=E5=80=BC=E5=92=8C=E9=A2=
+=9C=E8=89=B2=E7=9A=84=E8=BF=90=E7=AE=97=EF=BC=8C=E8=BF=99=E6=A0=B7=E5=B0=B1=
+=E5=8F=AF=E4=BB=A5=E5=AE=9E=E7=8E=B0=E5=B1=9E=E6=80=A7=E5=80=BC=E4=B9=8B=E9=
+=97=B4=E7=9A=84=E5=A4=8D=E6=9D=82=E5=85=B3=E7=B3=BB=E3=80=82LESS=E4=B8=AD=
+=E7=9A=84=E5=87=BD=E6=95=B0=E4=B8=80=E4=B8=80=E6=98=A0=E5=B0=84=E4=BA=86Jav=
+aScript=E4=BB=A3=E7=A0=81=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=84=BF=E6=
+=84=8F=E7=9A=84=E8=AF=9D=E5=8F=AF=E4=BB=A5=E6=93=8D=E4=BD=9C=E5=B1=9E=E6=80=
+=A7=E5=80=BC=E3=80=82</p>
+
+<p>LESS=E6=BA=90=E7=A0=81=EF=BC=9A</p>
+
+<pre><code><span class=3D"variable">@the-border</span>: <span class=3D"numb=
+er">1px</span>;
+<span class=3D"variable">@base-color</span>: <span class=3D"color">#111</sp=
+an>;
+<span class=3D"variable">@red</span>:        <span class=3D"color">#842210<=
+/span>;
+
+<span class=3D"id">#header</span> {
+    <span class=3D"attribute">color</span>: (<span class=3D"variable">@base=
+-color </span>* <span class=3D"number">3</span>);
+    <span class=3D"attribute">border-left</span>: <span class=3D"variable">=
+@the-border</span>;
+    <span class=3D"attribute">border-right</span>: (<span class=3D"variable=
+">@the-border </span>* <span class=3D"number">2</span>);
+}
+<span class=3D"id">#footer</span> {
+    <span class=3D"attribute">color</span>: (<span class=3D"variable">@base=
+-color </span>+ <span class=3D"color">#003300</span>);
+    <span class=3D"attribute">border-color</span>: desaturate(<span class=
+=3D"variable">@red</span>, <span class=3D"number">10%</span>);
+}
+</code></pre>
+
+<p>=E7=BC=96=E8=AF=91=E5=90=8E=E7=9A=84CSS=EF=BC=9A</p>
+
+<pre><code><span class=3D"id">#header</span> {
+    <span class=3D"attribute">color</span>: <span class=3D"color">#333</spa=
+n>;
+    <span class=3D"attribute">border-left</span>: <span class=3D"number">1p=
+x</span>;
+    <span class=3D"attribute">border-right</span>: <span class=3D"number">2=
+px</span>;
+}
+<span class=3D"id">#footer</span> {
+    <span class=3D"attribute">color</span>: <span class=3D"color">#114411</=
+span>;
+    <span class=3D"attribute">border-color</span>: <span class=3D"color">#7=
+d2717</span>;
+}
+</code></pre>
+
+<h3>=E6=9B=B4=E5=A4=9A=E8=AF=B4=E6=98=8E</h3>
+
+<p>=E6=9B=B4=E5=A4=9A=E6=9B=B4=E8=AF=A6=E7=BB=86=E7=9A=84=E8=AF=AD=E6=B3=95=
+=E7=89=B9=E6=80=A7=E8=AF=B7=E5=8F=82=E8=A7=81<a href=3D"http://www.1024i.co=
+m/demo/less/document.html">=E8=AF=AD=E8=A8=80=E6=96=87=E6=A1=A3</a></p>
+
+<h2>=E5=BF=AB=E9=80=9F=E4=B8=8A=E6=89=8B</h2>
+
+<p>LESSCSS=E7=9A=84=E4=BD=BF=E7=94=A8=E6=98=AF=E5=BE=88=E5=AE=B9=E6=98=93=
+=E7=9A=84=EF=BC=8C=E9=A6=96=E5=85=88=EF=BC=8C=E4=BD=BF=E7=94=A8=E4=BD=A0=E6=
+=9C=80=E5=B8=B8=E4=BD=BF=E7=94=A8=E7=9A=84=E4=BB=A3=E7=A0=81=E7=BC=96=E8=BE=
+=91=E5=99=A8=EF=BC=8C=E6=8C=89LESSCSS=E7=9A=84=E8=AF=AD=E6=B3=95=E8=A7=84=
+=E5=88=99=E5=86=99=E5=A5=BD.less=E6=96=87=E4=BB=B6=EF=BC=8C=E6=8E=A5=E4=B8=
+=8B=E6=9D=A5=EF=BC=8C=E4=BD=BF=E7=94=A8=E7=BC=96=E8=AF=91=E5=B7=A5=E5=85=B7=
+=E5=AE=83=E7=BC=96=E8=AF=91=E6=88=90.css=EF=BC=8C=E6=9C=80=E5=90=8E=E5=86=
+=8D=E5=BC=95=E5=85=A5=E9=A1=B5=E9=9D=A2=E5=8D=B3=E5=8F=AF=E3=80=82</p>
+
+<h3>GUI=E7=BC=96=E8=AF=91=E5=B7=A5=E5=85=B7</h3>
+
+<p>=E4=B8=BA=E6=96=B9=E4=BE=BF=E8=B5=B7=E8=A7=81=EF=BC=8C=E5=BB=BA=E8=AE=AE=
+=E5=88=9D=E5=AD=A6=E8=80=85=E4=BD=BF=E7=94=A8GUI=E7=BC=96=E8=AF=91=E5=B7=A5=
+=E5=85=B7=E6=9D=A5=E7=BC=96=E8=AF=91.less=E6=96=87=E4=BB=B6=EF=BC=8C=E4=BB=
+=A5=E4=B8=8B=E6=98=AF=E4=B8=80=E4=BA=9B=E5=8F=AF=E9=80=89GUI=E7=BC=96=E8=AF=
+=91=E5=B7=A5=E5=85=B7=EF=BC=9A</p>
+
+<ol>
+<li><p>koala(Win/Mac/Linux)</p>
+
+<p>=E5=9B=BD=E4=BA=BA=E5=BC=80=E5=8F=91=E7=9A=84LESSCSS/SASS=E7=BC=96=E8=AF=
+=91=E5=B7=A5=E5=85=B7=E3=80=82=E4=B8=8B=E8=BD=BD=E5=9C=B0=E5=9D=80=EF=BC=9A=
+<a href=3D"http://koala-app.com/index-zh.html">http://koala-app.com/index-z=
+h.html</a></p></li>
+<li><p>Codekit(Mac)</p>
+
+<p>=E4=B8=80=E6=AC=BE=E8=87=AA=E5=8A=A8=E7=BC=96=E8=AF=91Less/Sass/Stylus/C=
+offeeScript/Jade/Haml=E7=9A=84=E5=B7=A5=E5=85=B7=EF=BC=8C=E5=90=AB=E8=AF=AD=
+=E6=B3=95=E6=A3=80=E6=9F=A5=E3=80=81=E5=9B=BE=E7=89=87=E4=BC=98=E5=8C=96=E3=
+=80=81=E8=87=AA=E5=8A=A8=E5=88=B7=E6=96=B0=E7=AD=89=E9=99=84=E5=8A=A0=E5=8A=
+=9F=E8=83=BD=E3=80=82=E4=B8=8B=E8=BD=BD=E5=9C=B0=E5=9D=80<a href=3D"http://=
+incident57.com/codekit/">http://incident57.com/codekit/</a></p></li>
+<li><p>WinLess(Win)</p>
+
+<p>=E4=B8=80=E6=AC=BELESS=E7=BC=96=E8=AF=91=E8=BD=AF=E4=BB=B6=E3=80=82=E4=
+=B8=8B=E8=BD=BD=E5=9C=B0=E5=9D=80<a href=3D"http://winless.org/">http://win=
+less.org/</a></p></li>
+<li><p>SimpleLess(Win/Mac/Linux)</p>
+
+<p>=E4=B8=80=E6=AC=BELESS=E7=BC=96=E8=AF=91=E8=BD=AF=E4=BB=B6=E3=80=82=E4=
+=B8=8B=E8=BD=BD=E5=9C=B0=E5=9D=80<a href=3D"http://wearekiss.com/simpless">=
+http://wearekiss.com/simpless</a></p></li>
+</ol>
+
+<h3>Node.js=E5=BA=93</h3>
+
+<p>LESSCSS=E5=AE=98=E6=96=B9=E6=9C=89=E4=B8=80=E6=AC=BE=E5=9F=BA=E4=BA=8ENo=
+de.js=E7=9A=84=E5=BA=93=EF=BC=8C=E7=94=A8=E4=BA=8E=E7=BC=96=E8=AF=91.less=
+=E6=96=87=E4=BB=B6=E3=80=82</p>
+
+<p>=E4=BD=BF=E7=94=A8=E6=97=B6=EF=BC=8C=E9=A6=96=E5=85=88=E5=85=A8=E5=B1=80=
+=E5=AE=89=E8=A3=85less=EF=BC=88=E9=83=A8=E5=88=86=E7=B3=BB=E7=BB=9F=E4=B8=
+=8B=E5=8F=AF=E8=83=BD=E9=9C=80=E8=A6=81=E5=9C=A8=E5=89=8D=E9=9D=A2=E5=8A=A0=
+=E4=B8=8Asudo=E5=88=87=E6=8D=A2=E4=B8=BA=E8=B6=85=E7=BA=A7=E7=AE=A1=E7=90=
+=86=E5=91=98=E6=9D=83=E9=99=90=EF=BC=89=EF=BC=9A</p>
+
+<pre><code>npm install -g less
+</code></pre>
+
+<p>=E6=8E=A5=E4=B8=8B=E6=9D=A5=E5=B0=B1=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8=
+lessc=E6=9D=A5=E7=BC=96=E8=AF=91.less=E6=96=87=E4=BB=B6=E4=BA=86=EF=BC=9A</=
+p>
+
+<pre><code>lessc example/example.less example/example.css
+</code></pre>
+
+<p>=E6=9B=B4=E5=A4=9A=E9=80=89=E9=A1=B9=E5=8F=AF=E4=BB=A5=E7=9B=B4=E6=8E=A5=
+=E8=BF=90=E8=A1=8Clessc=E6=9F=A5=E7=9C=8B=E8=AF=B4=E6=98=8E=E3=80=82</p>
+
+<h3>=E6=B5=8F=E8=A7=88=E5=99=A8=E7=AB=AF=E4=BD=BF=E7=94=A8</h3>
+
+<p>LESSCSS=E4=B9=9F=E5=8F=AF=E4=BB=A5=E4=B8=8D=E7=BB=8F=E7=BC=96=E8=AF=91=
+=EF=BC=8C=E7=9B=B4=E6=8E=A5=E5=9C=A8=E6=B5=8F=E8=A7=88=E5=99=A8=E7=AB=AF=E4=
+=BD=BF=E7=94=A8=E3=80=82</p>
+
+<p>=E4=BD=BF=E7=94=A8=E6=96=B9=E6=B3=95=EF=BC=9A</p>
+
+<ol>
+<li>=E4=B8=8B=E8=BD=BDLESSCSS=E7=9A=84.js=E6=96=87=E4=BB=B6=EF=BC=8C=E4=BE=
+=8B=E5=A6=82lesscss-1.4.0.min.js=E3=80=82</li>
+<li><p>=E5=9C=A8=E9=A1=B5=E9=9D=A2=E4=B8=AD=E5=BC=95=E5=85=A5.less=E6=96=87=
+=E4=BB=B6</p>
+
+<pre><code>&lt;link rel=3D<span class=3D"string">"stylesheet/less"</span> h=
+ref=3D<span class=3D"string">"example.less"</span> /&gt;
+</code></pre>
+
+<p>=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=8F<code>rel</code>=E5=B1=9E=E6=80=A7=
+=E7=9A=84=E5=80=BC=E6=98=AF<code>stylesheet/less</code>=EF=BC=8C=E8=80=8C=
+=E4=B8=8D=E6=98=AF<code>stylesheet</code>=E3=80=82</p></li>
+<li><p>=E5=BC=95=E5=85=A5=E7=AC=AC1=E6=AD=A5=E4=B8=8B=E8=BD=BD=E7=9A=84.js=
+=E6=96=87=E4=BB=B6</p>
+
+<pre><code>&lt;script src=3D<span class=3D"string">"lesscss-1.4.0.min.js"</=
+span>&gt;&lt;/script&gt;
+</code></pre></li>
+</ol>
+
+<p>=E9=9C=80=E8=A6=81=E7=89=B9=E5=88=AB=E6=B3=A8=E6=84=8F=E7=9A=84=E6=98=AF=
+=EF=BC=8C=E7=94=B1=E4=BA=8E=E6=B5=8F=E8=A7=88=E5=99=A8=E7=AB=AF=E4=BD=BF=E7=
+=94=A8=E6=97=B6=E6=98=AF=E4=BD=BF=E7=94=A8ajax=E6=9D=A5=E6=8B=89=E5=8F=96.l=
+ess=E6=96=87=E4=BB=B6=EF=BC=8C=E5=9B=A0=E6=AD=A4=E7=9B=B4=E6=8E=A5=E5=9C=A8=
+=E6=9C=AC=E6=9C=BA=E6=96=87=E4=BB=B6=E7=B3=BB=E7=BB=9F=E6=89=93=E5=BC=80=EF=
+=BC=88=E5=8D=B3=E5=9C=B0=E5=9D=80=E6=98=AF<code>file:<span class=3D"comment=
+">//</span></code>=E5=BC=80=E5=A4=B4=EF=BC=89=E6=88=96=E8=80=85=E6=98=AF=E6=
+=9C=89=E8=B7=A8=E5=9F=9F=E7=9A=84=E6=83=85=E5=86=B5=E4=B8=8B=E4=BC=9A=E6=8B=
+=89=E5=8F=96=E4=B8=8D=E5=88=B0.less=E6=96=87=E4=BB=B6=EF=BC=8C=E5=AF=BC=E8=
+=87=B4=E6=A0=B7=E5=BC=8F=E6=97=A0=E6=B3=95=E7=94=9F=E6=95=88=E3=80=82</p>
+
+<p>=E8=BF=98=E6=9C=89=E4=B8=80=E7=A7=8D=E6=83=85=E5=86=B5=E5=AE=B9=E6=98=93=
+=E5=AF=BC=E8=87=B4=E6=A0=B7=E5=BC=8F=E6=97=A0=E6=B3=95=E7=94=9F=E6=95=88=EF=
+=BC=8C=E5=B0=B1=E6=98=AF=E9=83=A8=E5=88=86=E6=9C=8D=E5=8A=A1=E5=99=A8=EF=BC=
+=88=E4=BB=A5IIS=E5=B1=85=E5=A4=9A=EF=BC=89=E4=BC=9A=E5=AF=B9=E6=9C=AA=E7=9F=
+=A5=E5=90=8E=E7=BC=80=E7=9A=84=E6=96=87=E4=BB=B6=E8=BF=94=E5=9B=9E404=EF=BC=
+=8C=E5=AF=BC=E8=87=B4=E6=97=A0=E6=B3=95=E6=AD=A3=E5=B8=B8=E8=AF=BB=E5=8F=96=
+.less=E6=96=87=E4=BB=B6=E3=80=82=E8=A7=A3=E5=86=B3=E6=96=B9=E6=A1=88=E6=98=
+=AF=E5=9C=A8=E6=9C=8D=E5=8A=A1=E5=99=A8=E4=B8=AD=E4=B8=BA.less=E6=96=87=E4=
+=BB=B6=E9=85=8D=E7=BD=AEMIME=E5=80=BC=E4=B8=BA<code>text/css</code>=EF=BC=
+=88=E5=85=B7=E4=BD=93=E6=96=B9=E6=B3=95=E8=AF=B7=E6=90=9C=E7=B4=A2=EF=BC=89=
+=E3=80=82=E6=88=96=E8=80=85=E8=BF=98=E6=9C=89=E4=B8=80=E7=A7=8D=E6=9B=B4=E7=
+=AE=80=E5=8D=95=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=8C=E5=8D=B3=E6=98=AF=E7=9B=
+=B4=E6=8E=A5=E5=B0=86.less=E6=96=87=E4=BB=B6=E6=94=B9=E5=90=8D=E4=B8=BA.css=
+=E6=96=87=E4=BB=B6=E5=8D=B3=E5=8F=AF=E3=80=82</p>
+
+<h3>=E6=9B=B4=E5=A4=9A=E8=AF=B4=E6=98=8E</h3>
+
+<p>=E6=9B=B4=E5=A4=9A=E4=BD=BF=E7=94=A8=E4=B8=8A=E7=9A=84=E8=AF=B4=E6=98=8E=
+=E8=AF=B7=E5=8F=82=E8=A7=81<a href=3D"http://www.1024i.com/demo/less/usage.=
+html">=E4=BD=BF=E7=94=A8=E8=AF=B4=E6=98=8E</a>=E3=80=82</p>
+
+<h2>=E6=9B=B4=E6=96=B0=E8=AF=B4=E6=98=8E</h2>
+
+<h3>1.4.0</h3>
+
+<p>1.4.0=E5=B7=B2=E7=BB=8F=E6=AD=A3=E5=BC=8F=E5=8F=91=E5=B8=83=EF=BC=8C=E8=
+=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E5=BC=95=E5=85=A5=E4=BA=86=E4=B8=80=E4=BA=
+=9B=E6=96=B0=E7=89=B9=E6=80=A7=EF=BC=8C=E5=A6=82=E6=B4=BE=E7=94=9F=EF=BC=88=
+extends=EF=BC=89=E3=80=81<code>data-uri</code>=E5=87=BD=E6=95=B0=E4=BB=A5=
+=E5=8F=8A=E6=9B=B4=E5=A4=9A=E7=9A=84=E6=95=B0=E5=AD=A6=E5=87=BD=E6=95=B0=E3=
+=80=82=E8=AF=A6=E7=BB=86=E7=9A=84=E5=8F=98=E6=9B=B4=E6=83=85=E5=86=B5=E8=AF=
+=B7=E6=9F=A5=E7=9C=8B<a href=3D"http://www.1024i.com/demo/less/changelog.ht=
+ml">=E6=9B=B4=E6=96=B0=E6=97=A5=E5=BF=97</a>=E3=80=82</p>
+
+<p>=E5=9C=A8=E8=BF=99=E4=B8=AA=E7=89=88=E6=9C=AC=E4=B8=AD=EF=BC=8C=E6=9C=89=
+=E4=B8=80=E4=BA=9B=E4=B8=8D=E5=85=BC=E5=AE=B9=E7=9A=84=E5=8F=98=E5=8C=96=E3=
+=80=82</p>
+
+<ul>
+<li><code><span class=3D"variable">@import-once</span></code>=E8=A2=AB=E7=
+=A7=BB=E9=99=A4=EF=BC=8C=E7=8E=B0=E5=9C=A8<code><span class=3D"variable">@i=
+mport</span></code>=E7=9A=84=E9=BB=98=E8=AE=A4=E8=A1=8C=E4=B8=BA=E5=B0=B1=
+=E6=98=AF=E5=8F=AA=E5=BC=95=E5=85=A5=E4=B8=80=E6=AC=A1=EF=BC=88=E5=92=8C=E6=
+=97=A7=E7=89=88=E6=9C=AC<code><span class=3D"variable">@import-once</span><=
+/code>=E5=8A=9F=E8=83=BD=E4=B8=80=E6=A0=B7=EF=BC=89=E3=80=82</li>
+<li>=E5=83=8F<code>(~<span class=3D"string">".myclass_@{index}"</span>) {..=
+.}</code>=E8=BF=99=E6=A0=B7=E5=9C=A8=E9=80=89=E6=8B=A9=E5=99=A8=E4=B8=AD=E6=
+=8F=92=E5=85=A5=E5=8F=98=E9=87=8F=E7=9A=84=E8=AF=AD=E6=B3=95=E4=B8=8D=E5=86=
+=8D=E8=A2=AB=E6=94=AF=E6=8C=81=EF=BC=8C=E8=AF=B7=E4=BD=BF=E7=94=A8<code><sp=
+an class=3D"class">.myclass_</span>@{index} {...}</code>=E6=9D=A5=E4=BB=A3=
+=E6=9B=BF=EF=BC=8C=E8=BF=99=E7=A7=8D=E6=96=B0=E8=AF=AD=E6=B3=95=E5=9C=A81.3=
+.1=E4=BB=A5=E4=B8=8A=E7=89=88=E6=9C=AC=E4=B8=AD=E9=83=BD=E6=94=AF=E6=8C=81=
+=E3=80=82</li>
+<li>=E7=94=A8=E4=BA=8E=E6=B5=8F=E8=A7=88=E5=99=A8=E7=9A=84less.js=E4=B8=8D=
+=E5=86=8D=E5=8C=85=E5=90=ABes5-shim.js=E3=80=82=E5=9B=A0=E4=B8=BA=E6=88=91=
+=E4=BB=AC=E4=B9=8B=E5=89=8D=E7=94=A8=E7=9A=84es5-shim.js=E7=89=88=E6=9C=AC=
+=E4=B8=AD=E6=9C=89=E4=B8=80=E4=BA=9B=E9=94=99=E8=AF=AF=EF=BC=8C=E8=80=8C=E6=
+=96=B0=E7=89=88=E6=9C=AC=E7=9A=84=E4=BD=93=E7=A7=AF=E5=8F=88=E6=98=8E=E6=98=
+=BE=E5=8F=98=E5=A4=A7=E4=BA=86=E3=80=82=E4=BD=BF=E7=94=A8=E6=97=B6=E8=AF=B7=
+=E6=A0=B9=E6=8D=AE=E9=9C=80=E8=A6=81=E9=80=89=E7=94=A8es5-shim=E6=88=96=E8=
+=80=85=E6=98=AF=E5=8F=AA=E5=9C=A8=E7=8E=B0=E4=BB=A3=E6=B5=8F=E8=A7=88=E5=99=
+=A8=E4=B8=AD=E4=BD=BF=E7=94=A8=E3=80=82</li>
+<li><p>=E5=BC=95=E5=85=A5=E4=BA=86=E4=B8=80=E7=A7=8D=E2=80=9C=E4=B8=A5=E6=
+=A0=BC=E8=BF=90=E7=AE=97=E6=A8=A1=E5=BC=8F=E2=80=9D=EF=BC=88=E5=8F=AF=E9=80=
+=89=EF=BC=89=EF=BC=8C=E5=9C=A8=E4=B8=A5=E6=A0=BC=E8=BF=90=E7=AE=97=E6=A8=A1=
+=E5=BC=8F=E4=B8=AD=EF=BC=8C=E6=95=B0=E5=AD=A6=E8=BF=90=E7=AE=97=E5=BF=85=E9=
+=A1=BB=E8=A2=AB=E6=8B=AC=E5=8F=B7=E5=8C=85=E8=A3=B9=EF=BC=8C=E5=A6=82=EF=BC=
+=9A</p>
+
+<pre><code>(<span class=3D"number">1</span> + <span class=3D"number">1</spa=
+n>)  <span class=3D"comment">// 2</span>
+<span class=3D"number">1</span> + <span class=3D"number">1</span>    <span =
+class=3D"comment">// 1+1</span>
+</code></pre>
+
+<p>=E5=9C=A81.4.0=E4=B8=AD=EF=BC=8C=E8=BF=99=E4=B8=AA=E9=80=89=E9=A1=B9=E9=
+=BB=98=E8=AE=A4=E8=A2=AB=E5=85=B3=E9=97=AD=EF=BC=8C=E4=BD=86=E6=88=91=E4=BB=
+=AC=E5=B8=8C=E6=9C=9B=E5=9C=A8=E6=9C=AA=E6=9D=A5=E7=9A=84=E6=9F=90=E4=B8=AA=
+=E6=97=B6=E9=97=B4=E5=B0=86=E5=AE=83=E9=BB=98=E8=AE=A4=E8=AE=BE=E7=BD=AE=E4=
+=B8=BA=E5=BC=80=E5=90=AF=E3=80=82=E6=88=91=E4=BB=AC=E5=BB=BA=E8=AE=AE=E4=BD=
+=A0=E5=8D=87=E7=BA=A7=E4=BB=A3=E7=A0=81=E7=9A=84=E5=86=99=E6=B3=95=EF=BC=8C=
+=E5=B9=B6=E6=89=93=E5=BC=80=E4=B8=A5=E6=A0=BC=E8=BF=90=E7=AE=97=E6=A8=A1=E5=
+=BC=8F=E3=80=82=EF=BC=88=E5=9C=A8=E5=91=BD=E4=BB=A4=E8=A1=8C=E4=B8=AD=E5=8A=
+=A0=E4=B8=8A<code>-strict-math=3Don</code>=E6=88=96=E8=80=85=E6=98=AF=E5=9C=
+=A8JavaScript=E4=BB=A3=E7=A0=81=E4=B8=AD=E5=8A=A0=E5=85=A5<code>strictMath:=
+true</code>=E3=80=82=EF=BC=89=E5=B8=A6=E6=8B=AC=E5=8F=B7=E7=9A=84=E5=86=99=
+=E6=B3=95=E4=B8=8E=E6=97=A7=E7=89=88=E7=9A=84less=E7=BC=96=E8=AF=91=E5=99=
+=A8=E5=85=BC=E5=AE=B9=E3=80=82</p></li>
+<li>=E5=BC=95=E5=85=A5=E4=BA=86=E4=B8=80=E7=A7=8D=E2=80=9C=E4=B8=A5=E6=A0=
+=BC=E5=8D=95=E4=BD=8D=E6=A8=A1=E5=BC=8F=E2=80=9D=EF=BC=88<code>strictUnits:=
+true</code>=E6=88=96=E8=80=85<code>strict-units=3Don</code>=EF=BC=89=EF=BC=
+=8C=E8=BF=99=E5=B0=86=E5=BC=BA=E5=88=B6=E8=AE=A9lessc=E9=AA=8C=E8=AF=81=E5=
+=8D=95=E4=BD=8D=E7=9A=84=E5=90=88=E6=B3=95=E6=80=A7=E3=80=82=E4=BE=8B=E5=A6=
+=82<code><span class=3D"number">4px</span>/<span class=3D"number">2px</span=
+></code>=E7=BB=93=E6=9E=9C=E4=B8=BA<code><span class=3D"number">2</span></c=
+ode>=EF=BC=8C=E8=80=8C=E4=B8=8D=E6=98=AF<code><span class=3D"number">2px</s=
+pan></code>=EF=BC=8C=E8=80=8C<code><span class=3D"number">4em</span>/<span =
+class=3D"number">2px</span></code>=E5=B0=86=E6=8A=A5=E9=94=99=E3=80=82=E7=
+=9B=AE=E5=89=8D=E6=B2=A1=E6=9C=89=E5=B0=86=E8=BF=99=E4=B8=AA=E9=80=89=E9=A1=
+=B9=E9=BB=98=E8=AE=A4=E6=89=93=E5=BC=80=E7=9A=84=E8=AE=A1=E5=88=92=EF=BC=8C=
+=E4=BD=86=E5=AE=83=E5=8F=AF=E8=83=BD=E5=9C=A8=E6=8E=92=E6=9F=A5bug=E7=9A=84=
+=E6=97=B6=E5=80=99=E6=9C=89=E7=94=A8=E3=80=82</li>
+<li>=E5=8D=95=E4=BD=8D=E7=9A=84=E8=BF=90=E7=AE=97=E5=8A=9F=E8=83=BD=E5=B7=
+=B2=E5=AE=8C=E6=88=90=EF=BC=8C=E6=89=80=E4=BB=A5<code>(<span class=3D"numbe=
+r">4px</span> * <span class=3D"number">3em</span>) / <span class=3D"number"=
+>4px</span></code>=E4=BB=A5=E5=89=8D=E7=BB=93=E6=9E=9C=E6=98=AF<code><span =
+class=3D"number">3px</span></code>=EF=BC=8C=E4=BD=86=E7=8E=B0=E5=9C=A8=E6=
+=98=AF<code><span class=3D"number">3em</span></code>=E3=80=82=E4=BD=86=E6=
+=98=AF=EF=BC=8C=E6=88=91=E4=BB=AC=E6=B2=A1=E6=9C=89=E5=8F=96=E6=B6=88=E6=9C=
+=89=E5=8D=95=E4=BD=8D=E6=95=B0=E5=AD=97=E5=90=91=E6=97=A0=E5=8D=95=E4=BD=8D=
+=E6=95=B0=E5=AD=97=E8=BD=AC=E6=8D=A2=E7=9A=84=E5=8A=9F=E8=83=BD=EF=BC=8C=E9=
+=99=A4=E9=9D=9E=E2=80=9C=E4=B8=A5=E6=A0=BC=E5=8D=95=E4=BD=8D=E6=A8=A1=E5=BC=
+=8F=E2=80=9D=E8=A2=AB=E5=BC=80=E5=90=AF=E3=80=82</li>
+</ul>
+
+<p>=E4=BD=A0=E5=8F=AF=E4=BB=A5=E7=8E=B0=E5=9C=A8=E5=B0=B1=E5=B0=86=E9=80=89=
+=E6=8B=A9=E5=99=A8=E4=B8=AD=E6=8F=92=E5=85=A5=E5=8F=98=E9=87=8F=E3=80=81=E8=
+=BF=90=E7=AE=97=E3=80=81=E5=8D=95=E4=BD=8D=E7=9A=84=E6=B6=89=E5=8F=8A=E5=88=
+=B0=E7=9A=84=E5=8F=98=E5=8C=96=E5=BA=94=E7=94=A8=E5=88=B0=E4=BB=A3=E7=A0=81=
+=E4=B8=AD=E5=8E=BB=EF=BC=8C=E8=BF=99=E4=BA=9B=E5=8F=98=E5=8C=96=E8=83=BD=E5=
+=BE=88=E5=A5=BD=E5=9C=B0=E4=B8=8Eless 1.3.3=E5=85=BC=E5=AE=B9=E3=80=82</p><=
+/div>
+    </section>
+   =20
+   =20
+ =20
+</body></html>
+------=_NextPart_000_AA30_94D3FF7F.A8B8AD81
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.1024i.com/demo/less/images/logo.png
+
+iVBORw0KGgoAAAANSUhEUgAAAMcAAABRCAYAAABmOrKYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAANalJREFUeNrsfQeAFNX9/2e23O71fke5ox3SmxRRRCNiQ42xYcT8raD+
+IhprjBhLmppmjQELQYwkIlhiV0QxKCgISBWkH+3gDo674+re7rz/+76Z2Z2ZnbJXQIzM8dg25c2b
+7+fb3/dJjDG09xYOh8Wrz+cT7+kafr8fsiwP5u+H89ch/LXE4/F04C3DfLxdnyRJMnzmx+L5WW9j
+ymOvluDY9r3bpv1+0pbx552CSCRCz7ypubm5IhAIlL7wwgtrqqqqVpWXl3/59NNPH2psbCTaafV1
+WkvjviMwBkmciMfzm7uRt6G8pWqETjdsddOJgiMpKQnBgA+ZmWno1W+wQxek2Ivk8LvpG48kWXwr
+OV/Dwxu/Jckj2e/a1o0pTRsnGhflPXM9UFaPV99ZnNjhmsrDcdnB+BWL/ibFOs63b79ZDyb5SxiT
+0dTUJO6BmB0HCCZOnCj22bVr15bzzjtvzuTJk6evXbt265EG7+EGx1B+w49zznCqJk1oANw2SZIS
+/r0p1Izq6lps2rTJvJNKstq+njgcKOdRmxR/DY92tKHLHt1JjMfG9TvaB/rP5b4lZ7DqOAdvchw9
+MuMH9bMeMCxG2zL9i5jOETueCYalP6OsO41sDQjZzNTkeEangpK+qa6tQ6g5xIfIEx03jVE2NDSI
+1w4dOpQUFRVNWbJkyQ1Tp059+Je//OUT0RN/z8ExgYPiOQ6KtLaIRLeNuLvXQ68m4tIRqkeSjNLD
+ggglPUAkhbA95n0kjwXh6j4zo4QS++sBQoRiAAmzBJM9U2bqPjqgCwkiR5mAxqmluJuVBLnT4czD
+4NV+kzUYSDHweSTTZb3qteTomeMfhHo9WTvKK04uSzpQqz8rUtmdCZIUCYVCpCHk3nXXXY8OGjTo
+RC5Jruc0VX0kwOE5HCflN/0T/vIiv7F2AQYNotYsJU+cRsFUDov4JsP6e/15iMhlGBsUIoxXH+T4
+E7DY/kyOqFyYxTivdh5majRWVk07hu/DWETlvrLynoWjnRSqEpNtb4wAJIld5eh9MXMfGNTruI2R
+xbjKiJMcyn2x6OnF2DLTsLk8ewIJSZOzzjpr/IIFC17mX6cfdeAg1SiB1pUP+DR+Q/6ERJfXK2wH
+c7NSbTVOowEl+p063raDrekStqhihj/9d2YqYEyGK+okIzCZyiA0waIRdtvsDiN1McN/zHCPAqRM
+uabMIrr7lZW+WqJAxxmkKJLi+2EARexYJgDG4uSjpNsz4FcUlyR/QqQiADJ69OhxDz/88O+POrUq
+EaufE+sfODA6JsIRyIN18OBBLF62GouXrsX6zTtR3xTC6BGDcN/t1wiR6iZ69SxN655yjO5BR1UZ
+GRZGhM5gtDq7wnEFAbiyEqY7DYvpV0Qosnpt6gszmMeQEuRRzIbdGoHhNvBm7LC4oWQ2an280W91
+PdmwHzMDGApokoNJmPPe52hqqMaIIb1xXI8uiERkLiXCrqrWnXfe+X/PPvvs66WlpQu/T+AYyPe5
+jPZzImqhGvF9np7+Mv7x8vvYsqsSXn8yvEkBhJsY8gqqW2Sgu1GDQtcqsYoXC0pnLE7nZ2bwqLsw
+JlsLYI3wJDPYYioLk1icNcAQsbFjmOm9NTOwB4YcI1DtFszPULJQSRN1Ysnmg2XD+ZkDLgNJfixe
+sRnzP/8aOekBXDB2OO684WJ0KsxHY6jZUXtJTk4O3H333ddPnjx5Ef8qclSAg/zRjjqax3M5tzGS
+3M5DEuPBP/4dj059DWmFXZDfsbtCdHz46uub6OZbBgq9wcrMniem0qqkZ40qQPRShEWJUU8/khQ7
+vcQkI3FJmhmsgs2ACWYtlTRVQ1UHo8JGsqNGFucbNTiYbBmWbPQkgRn2Z2ZjjZmPYxb2HEsAMXG+
+M1tGS+pzIJCHZk7wM99cghXflOLFx25HUYc8hFwkyGl84y9deNv2fbA56PGe6SZdkjjHWPb1Wkx7
+6T1kF5UgLS1D5TiaTmsU3W4AEfYeHR9hqqHKovouUw1LoRbzN0qDqcmx3+R4erPoko0vwMmm0Vv2
+UUMkenKtz4jre/y9MO18DnENxVBXj5GZDZBYvN2gjYneHxAdJ/XKMlPjU5pbQP8XtWR09htifQGL
+k1zUV69XQlZWJlZv2ofnZ8+Hx+txdPlTXKRfv36devXqdcJRY5DrvUYWrZjv0t39HB689eFnaAx7
+OdcIKCpF1NMqJ8CVHCSHbOU1Ub0vcUyQWXM8mcUZqRpBGh6yZpyrbhimepIQ9Rg5dZbpYhZMd45E
+bpRZW7hRtSYSF++IGt76+4p6yGLnkZkF6HRGvsGWUF3IceDVQBjlAfr4iZlR6JlFBCkpQXy27Fsc
+rK7l4LBniqoH1DNq1KjjjxpweL1ep1bEd8lz4va0X1NjA9Zt3I6klDSFG8m6pn1mUgvUKr0Xyegp
+MRiQsSdn4Zc0PyxbnmwZfNP/RaP+zKrpMdcCV66BjWvdVM+pu5Ygvui5zO5ZC4eUnRpm8sIJEAjG
+EYl6vpwlJSzGSVFDrW5ba14uMXbvO4h9+6stshPibd/Ro0dT2lDKUWFz+J1dbpnkSXAiaPqprqER
+ZeVV8PsCtty7xZLDMvbgiQ5krEtSAk4qxbMUfThRU8VkfMYZspLhLRGqJJkDj3LrQ0zMBqdyvE3i
+areYbQzGoqa7lSvC0pB36GC86sQcbCr9sDGunkewt6IKfUo6A81wUdGTKBUpyFv9dw6O9pBCJC2a
+I7LQK63otXXgsJS90R4x5om5d5mT41Zzx3r0QQnVUaW6dLW+yVYnkYySx0xrhv0jLpLRYwEoM/Ex
+i3gOdMFu5oCwWJBOZkzntjaa1GTLwdGmMjEWB2Aw5n4Ocuceqq23fEIW52Y4jFu7xzkSQlGc56il
+vo74fkkG4tBFYeNgq3qkNGK3Qgp/iGH1QcoRFjVItb57ubFIKiId5/VIRlBLkuVdRK+lly6M2fMB
+KRJFmHZbitNAMYYjckS9NSVrQNL1RYq7oYhBkkWDc1FbjDmOvGaLhCl7Vh0TbZzolB4xHtQHphsC
+KV4zYIl5vDymPLTDjIEjIjmOns3sReUExTzGnCYlT8o46PTQG0IhcVBacgDJvBXmZiA7IxUZqUHV
+U9KM8spDKD9Yi/qGZtTVN4kM3OQkv5KJy5il3sVMKJScxZewGUjCNjWFRAQ5GPQjIxhAXnYqsjKS
+ef+CgmgIMAd4f2obQqiorEFzWEZDYxOamiP8OB9XX72c2Jg155X0TgCjWkRu+6YmxZ2awq8dCCYh
+PzsdGWlBMR5a16tr6vi1m1BxsAYN/LWxMYQG3mef14ckfm1jdnKiWgGzlELfe3Do06jdPTbMQjNg
+rQdD3Bd6yWDW92OKUrhZFtm9WZkpOG1kH5w4pCcG9y5G96ICpHCA+H0e+HweVVtjfN8w6jkRbCnd
+i1Xrd+HzFd/iqzXbOVDCgoi9Ho+FLsUMYpLpwKvn9NSrUCgiiLOkOB8jB/fAiAHd0Kt7IToVZovg
+WZLfK9JuNFUlxPvDcYTa+kbsLDvA+7UP67eW4ZvNe7BhSxmqDtUKEKVycCFmZlsOYJiDisYil4Nw
+7In9cMKgHhjIx6Jb5wKkpyaDbi1JpH0onaeIdphfPMSP27PvALbtKsf6Lfy6m3dhzbc7sO9ADRo5
+WIjRCMkWNywt8Jv/YCRHAmPgFmm3P6Fk7YwRcy0ohVcWdgg9DOK4RQVZuOy8E3HxmcNR0rXQ1Adj
+eji5GAkw1PI4Jx055DjcMGEMB8l2zHhtId7/bB0HTrNIj0gIyTobKMwlHBHS4F5dcPVFJ+Hs0f05
+p05xdY0HAsq1UpKTUMAl3bAB3aNxqV17D2IRB+/8xevw5ddb+DWgqD/axXWp5vVc4hTmpmPC+afj
+snNHohtnDvp4RCQsmwiaJrF5hXRK4febk9UFA/t0wwVnkO0Q5pLsEFas3YKPv1iDjxevwcHqeqOL
+lh0dIDji4EiMsG28VUxug9SwJkChCMsqSvi/5kizeDb/74JRuP2acwRX1nzojpOtWLxhSTr34L7d
+8OR93XD519/iD1PfxOpNezlAAohpc5J9FzmxNnB1LSXgx22TzsWk8acICaGoehHjrgkyC7oHsgO6
+FeWLduHYoTjzygexu7IZSUm+mJQWHuSIUMMuOH0o7rnxx2J/DVyGdBDmkFpCqpguA5tss/ycdJw7
+Zrhov7jvCfz7vWVIT0uz93JprnSGH7bk0OIQ7hFw5q6iqT59vTlp8CyZJjM1ckLMzkjB7267FBed
+dYLqJYk4cGfJxTEmR8n/pON745UnbsaDT87FKx8sF6kwXo/X1v+v9acgJwOP3nMZThne27U/iTvs
+mDDGyXlQVX0IZWVl8Cbn67xQaqSbg/2uieNw+7XnRkHRVkNYODAiZLuI+RjYsXOPmnwp2UsM+eiS
+Jt8NOJjZ02QStSwxcEUfguUlmDECoeouDdxW6NYpD3/7zXUY2r+beGCywwNJhFMbUrM5UaelpuCv
+U65EVnoynnnlc6Ry1cgTzQaWda9cgoUj3NgP4NnfX43j+3ZpF1Bo/dYT9+atO9EYkpGa4okCg36n
+HKZf3fBj3HLV2WIsNO5v6ZJthX1JwKw8eJDbI5VcBUtyTHuJPizp6ACH5zsDh4jiRkSzjGi7SBzj
+6SJxOVVmoNB35EnJ5xx6+iM3CGAQIbYFGFbX0rg+2QL333IZfnrOYNRyg1hINq6Hi4k/cjgaX2jm
+6szd15/brsCwIublazaiMaz4WZkKDGIUZ44eqACDyQa1yCW+4K5u6cBRyqVG6e4KVVVkBnsu2iLq
+ZK6IfNSoVe0KjkS4jYn6VKe4nBAROp3P7gFqjVQfsg0evedn6NuzyJUQEwGG06ad/3e3XY5BJfmo
+q2uMizE0cgP4lOE9hd3DWMtmTNK96Jv9fsp9LF6+Dl5fUJ2IpdgH2ZmpmHLjBWp/5YTvTZuRqTWz
+lDJvXy5bw4EY5tf3WqtSsnPcw+EZsO8LOGQnbmrwocsRnQql2gyIoHWJh1pyTiQ+l0m31dXXY/LP
+zsDYkwe62hfmh2/VvF6va8/oOmlpqXjw1kvgk0KKbSIzgx//6otG6+wDZ+ZA19SuT0Z0Q32DmB3X
+HArF9zE6U9LDOfdufLV6M+9LmsKZSb1sCuHsUwaiV/eOwrOUCBPQZmmSS5auqzX6TEmk0d+9HoN0
+eO/jJfAFU9X70EkK2TrhK1Gng8/nCxw1NofTfHB+Q0E3zkq2BfnkKyqr4PFlGuOxsidqQzDWkpiJ
+ZHZL6T4q/aW4xMDeXXHzVec4GvnadxonXrV2PT5d/DW+XrcN5QeqxfddOhfglBMG4tyxJyIzI91V
+AtGYnTRsAC4aOwT/fm8FMtPTBQ8IcaO3S4dsDO3XLSHCVGqANeOdeZ/hP+9/jtKyA3ysVCBzAGSk
+p6B7cQFOHNoXQ/qXcKIv5kSqPF7Kgq6qiyAvzSskB9kWfp+EMSP7WYQamOW4UF7dkmUrMfs/H2PV
++q3cfomlv6SmBNExPwdDB/TEyKH90btnMbKzFe/fmnXfCmCmpOVzDVp2dOMqQU0ZdY2NCUnrzMxM
+ukjSUQEOSiy0kwqccHpZEZyBEPnLIVGSJcIHW7IQPJJlEQNnj5WO81h6QiShQvz8ijPFQ9R7Yszn
+1LhzdXUN7nt4Gma/uxgh2Qd/cho8nNCICJd9W4FX3l+BvrM+xJ+nXINRwwc4AkQbr2vGn47X53+F
+MLc3CGRkCPfq0RF53AYyH28eY1KNQqEm3HjnH/HaB1/Bn5aDpEByFMSKAD6ExWv24MX/fIGcjGT0
+7l6IcacNw49OGoR/v/ExktMyowyDGFB2RhqGDywxqHN2ajEB45kX5+BXf3ieU0wqkvh4EFhjDKAe
+X28sx1sLViPJ+zpKuuRj5PG9cOUlZ2Hmy2+hvgnIzUzi+4UdXe70PGhcdnHgS5LXVb1TwRE4KsBB
+IlMjLgvuMszuZjRCJMLbXrqLn0NuV7gzpktLN7k6SGoM6l2MH48dZiAEK7BR/w5yYPx00r348utS
+ZHcoRiYVezAl10rpGdiypxbX/WoaXvzLZM4t+zkChKTHoH7HYdSgHvh0xQ4O0hRBpF075iZkx3g8
+Xrz70X8FMPKKSoREYDZSXJIyhP3w9aYDWLrubaROf5tLqQhSOaC0uR4R/gwLc9OQlpLkqgb7OQj2
+lO3Do9PmIJheiLSMDHvHiepo3LavHhv+8yVeefdLLi3CyMjN44AMu8SiVO9jhGHHngqudjU72jJU
+X6BPnz75HCBF1dXVpd+5zUGdJY5BnIQISdPP+fsM3k5yN+Q8WPXNZk6wso0kYLZuPMdz6ycFmHTY
+EJd2F555gogi641OO5Xq1w9PFcDIL+4BH79PppszoenLpO+npgRQ3RDGrx+bjVouDZ1sEK3v550+
+HKGmhqg6WZiXnrARvKV0DzxJKUJaaEXX9HNRtIlWooYVV51SkoPIzMqEFMjgUiNbKeGj2mI0DrlZ
+6cJ75MTQxLjw65XvP4ADNU1I5SphzMOkm39DgUpqZEtGIiIXLJ3v6wukcSmTBS+XAta1fnQTr1QX
+LqXGrPm2FFWH6h0nPJEWk5+fnz5w4EDbUpfjxo07cuDQBkwzDIUrVJnccz5/X+T0gMlApIlOH3+2
+jA9aUM3Ls8iliRJ5i2Cr61+sERGTijH25AEJeX+WLl+Nue8sQnZhEWIlbUzTTXVjkRIMYPWmMrwx
+b0lCvRx5fB/enyRhb9CkUr/Pm3CwrV+v7vD6fULtYLoJqco0X+Vz3HuZir2pta1MY0PXlmw8e0ap
+F0GHgjwUcVurrq5e/d2iqJdOcmhVGSWR4GkvZazqjVH0fvM2ygnbGS3d47RNnjz5fDu7o62u8VZ7
+qwgg5KHgUiSbS5P73DoSTE7GoqUrsWTlt0hLS29VJJQ51GnVpmDqZxY2NYYwqE9X9O5RJB6ynUql
+fX717U+4jeFXJIYc7/0SM+FMMxcpyfA/85dHPdNOqlW34o7olM/VnuaQIAryGCWy0dieeeoIXP/T
+sfzYJhziXLU51CxSS6yZsbEQXHw2jczHpkkkDFrSrW6cafJRIQfHfbdcwe2UAGoO1YrEyFjaOgxS
+21Llspr2F8fbWHQMKct37jufEcdyHFPylF188cVnDB48uG0i4nC4cjlRpXGO+08u4vo67efnHKCu
+thYPPfYPjqpUoUPHT+eMr9RnF5VlVvMEDIShGPjEPY/v3yPOVRpv8HrQUF+PL1ZsQDAlXRiOlgUO
+ZHWqKOVfyYo7kkR/6e792FtRqdyXA7AJdH1LOnGVICQ6u4MflyhToBjBI/dci5efuAWXnz8SBdxm
+IJWxRjg4mlVjN6I2h+xWmo7K1ZyyiirHEjj6a4f4fpddMBZvTb8Pd078MY7rWigIp6a6XqTwRwwg
+cwGCBgZ9083Fp5Yc8OOND5bgi2XfIDk5aBu7IqbBn53/jTfeeLRz584DjiZwDOftPW4Yna938ZoJ
+jzgr2SgPPfYclxpbkJmdo85JtrEdTN5ZN5046js3zB1Xc5044Q7sU+waJKSN3MsbuTgnHZuMPXI5
+kwpj1aiUjNbIPVlRWW1J6Iaqf+orpcE3Nymuyh1l++Oc0baxoYhiK5w6ciCeenAS3v3HFDz/8A24
+4adj0KtrgQBpTW2DcEDoZ/ZZgdzLL1i+vxqVVTWOAUT9mBGXLunSCVMmX4Y3n78X/3rydkz5+UUY
+MbBEqJeH6htRW69KIycgWM78RBzN1HHJdv9f/4kyPkbBQJItHdDyBF27di1ZunTpW9dee+3l35m3
+SjEdJALF1eFw+BouMVKiSXc6+ad5p8gw83Gp8cjjz+HJ6W8gs6CLYUCYaVKSOIfM4jwxrsmHknmQ
+lTI7pFeXdHEtvihUHsqgnfanu7heH4zVZoP7MgLaQ+vSOT9qozgRWcfCHMhccpA+/e3m3dixpxxd
+OhVYegGtAC3m6fP3BbmZOPe04aLVNzRizfrtWPjVepEevm7TTtTx/YhoPdqkLv30d46OQ/UNWLpy
+I0q6dnYFhvaMm0KKGhjgdsFJw/rw1hc3X9OEbTvKsWj5Biz4YrU4Z2VNLd8nKWpTOReNY5bZAUEu
+PVatL8V1dz2K6X+5DZ07FIj6A1ZbXV0d8vLyus+YMePlW2+99aonn3xyxuuvv/4+73fdEQMHJ9B3
++EM8q6mpyWvnE9c8WFRm5WBVNR58+O+Y8co8ZOQVCQmieFNsikFL9tFx8/UMYLEQ3xH+uSAnExmp
+ya6pGfTwc3OycfG5p7benczPQVzTTQr4uOpFOVbEHfeUH8RHn63CxJ+embhnTh0hsgUkSbleMMmP
+kUP7iHbrdecJAn3xtQWYx8/d0Bw/t0RkV3GV5K35X3EV7RQhdewi9LJFIiLtS7P+tOdwXPdO6HNc
+Ma6+dAy2lJbhlbcX4tX3FvP7q0IqV4taW7CSaIgmkV1161/wp3uvw/Dj+wk7Mmyyb0V8REj7EPr3
+7z+Og2Tc008/vZkb63fzn984ImoVv/hY3rxOcx7oofu8Hnzw0WcYd9nNeGHOJ8jML4Y/STNyWVRn
+jyew1qTKqPWYTCJbDjNkpqeISUmJGP90TwkWyrZsEVlOKJmUitpJXq9wvSb5PfjHK/Ox/0CVcJG7
+xRws+63mSZFEoUbjP3rEADz/x1vw8lO3Y0DPTtyAb9A5l5TkvmSuqixcuh7vLfiKX9vvKrEcbRJR
+Bb1RALZn10544LYr8Pb0+3H5eSehnksoo6qlT59R7Ld4h0LM/iCX+ZqNuzH+5w/hj0+9hENcSpBU
+susLqX+HDh3iwErpGQgEzuZfZxwpm6PBSb2hqZv79lfiqsn34ZKrfoX1pdXI7tCZD77XotpeLM8m
+lgslG6RAi5YvYDCkQ5OBGuTin/zmR9OEMyWvKCy6SdNNt+7Yh1senMYfaK1b6aOEvHfE1QkkBNhR
+w/pj7tS78eMxgwSRKpUQIwZj/d6/zMLSFetEgNdOnUoYqLIsVK96bn8UdcrDU7+7CffdcglnVCE1
+n86u4IJzUS2aYtvULOHhJ1/B2RN+iUVLVwmVzc4Frb2PKIEt35EChyNzJA6WkZaKKy+7ABN+diky
+s7I5kkPGmzCWQDOUVGNMy69Bwg8oWgwuzuZgSE9LFgPLHLxfR3oTVcTVFVyoN8nBIOYtWs916ydQ
+umuPAIinlany8V6mELKzMjD1oZtwwsBiwd31aqifS/h9+2sx8ZdPYd6nXwqAEIPTqpy0ZMzM+9E8
+dJIot066BDdfdTbqauvUunVytNks8mD8IzsrFBbTh4dwtWryxJ+ipHuRQRo5xGnaNCG9ReBITU1N
+4i2uxIu+k6Q2jBs7CtP/fBv++dhtGNy3C+o415JlZuOcMA0Li3flOgJEQtS/ziwq9eEom6YcjQdF
+s5EZt4tSsGDpRlw48Q94ae77gqgIJKSeWnmbElV3BJE2KYW5H7r7KqQFJJG6YzR8fdhf1Yhr73wK
+Ux6ahrJ95QKwwWCgVZLLLEnIm3T79eNx4pAeIoho43+3pmOKBTXy/qck4X6uqr014ze4jttnOVnp
+2iKbln0IBhX3r8/n87blWbUIHPfee+9dc+fOXcTBEab0Z7tEQ/KekGfhtJOGYO4z92HiZWOFLmgA
+SJx+6Yxx2cKDZTA7ohxR9eVz3bumpk70w+xJayf9qEWBzKjLmNsX8MSvD0KVPfZxIr3tD//Ehdc9
+gOdeegM79+wT6gNxdL/fZyk13CYiqbYiBvXvhfNPPx4N9bVxfQtwgHj9ATzz8ic496r78cCfnsWy
+ld8Iwz1ZlCgKRvOczCC1nFym+43sEPIEXj+BZho2aU/Tvkypzt4gOurFjf3ZT0/BHddfgoBfeaZ2
+aUAECmIEK1eu3P7AAw+8Onv27Hnkuzgi3qpHHnnk7/xlZt++fU/lF7/pkksuOZ8G3npFWCoV04BU
+Prh/nDJJlLeZ9q8PkJaa5mA0SPGOvhZVIDESS0jo3okZylpipL1nyyz5pHgJxtw10j17KxSDXJbj
+rkV1nvx8fFZtLMeSVbPw+PQ3MaRPF4w5eQhOOL4v+vTsJjINFPWsWUkPcUjOM8dYLvvJaZj73he6
+MWW6QKgkUvD3V4fw1MwP8cKcj9GnRwecMnIATh4xEAP79kRuTpaoVEnle0IOGdpxMRIuvU4bNRR9
+uhdi484q4QxwHGOKX/BjBvftjhceuxNdOudxUNSoz8n62VEu15IlS3b++te/fvHjjz9+n3+9gTfi
+BM1HBByaW3n9+vXvT5gwYd6VV17582efffavvHMBu/QRCpqRDnvfbVdizYatWLR8C1fPku0Hx4YT
+aUszaxFtk6c8zl9Ou1RRwbH6eq53pzkPgs8n5m7ceOfD/EC/qXyMg5DVf+VUBldMG5cE9MvKq8WD
+FIYx06XZq6/CNRukIm7ZIrHxo6Wb8d5/VyM7IxldO+XiVE6sPxo1GMMG9+X3lSXmeDglVGobGej9
+juuOTgUZ2L2/USnnY1HQjSRVVnamcJeu2lTBQfoO/vbCuyjqkIXjB5TgjFOH44QhfdG9a5F4rk0O
+KTBRw5hLj+zMDAzu0w3fbFlCgRLbAKAAPu9rDt//id/8H7p0zBPSwolBkqr/xBNPfHT77bf/mX+k
+RLdD30UQ0KA+v/TSS09zMVY7derU5+vr6332DyaCtJRk3HrdRVj69Z9EVNkTt0635Gjy20kQ2SY/
+iABEE5Qqq2o55+mgLiwJW06bzjn25p0HIHvTYnV8YVqLnNlIiQQlG2mVgaRkxW0rm2pAxRU3gzCY
+/b5kcteISobrSw9i5bcfYeqsD9GrWwdcct7JuG7CuZzjZ4gUDz3TMEtzum9SkWhC1Nbdm1TvlEXN
+XbVMKamlpA6RSkWepj2VIWybvxKvvr8UHfLSuco8EJOvvQj9e5cIY9lJcjDVWdP3uK78vj/TJZ1a
+Sw3K+7p24oUY1K9ESAwntZgYDWfQCzkwpvCPq9qiRrXVWxW3PffcczNnzJjxHKHXaaOCYScOG4Dj
++3XlRlaDg+1hr8vr54MbBktbtVV3PHFpKl6wY3e5O9FyLtmxQy7njD2FtyaVA1lrRBxK4+/pc4r+
+vfY5KIzY6L5BXdP9RgExxUZk1mkVlqkWygD5vJIg1qzsLKSmZ2HLnhr8/qlXcfWtf8aBymrFy6SO
+i5WaS5Kd5mbkZKZyZtUERFejjRgLHcjGRmMjMWVRy3T+jDOzclDTCMx+50tcPOm3+O8XK0V6h506
+F3sP5OdmitR26zUIlFulwnG5XHJdfM7JaGyod8wYJoBv3Lhx/0033fRoewOjXcCh2iJ/5oNf6aT/
+0gOjEjWjT+iP5lCjs8ciAVemRgD5uVlRn3f8NSNYuW6Lq4eFuFpycgrOHD0MjXW10WBZtGmJkdEE
+ORlx63xIuu8lXWBScGNm8KwlHrexcOKoElQBSg4WfrUJc95ZCL8ap7C2/2JFsLUUHctrmHI/mc2q
+uUL1ysoU9snfZr4tVCvJI1naOfrxtqMPPTjpXJQsWsSZldvimcSkHn/88bf520XtDYx2A8e2bdtK
+Fy9e/CWlsDv5nYkrkKgMJknqkr/WQbJECEjJko2ga3FH+DyaPcLiVISv124VenkiHqsJl5zFVbAc
+LtkajQ9Nx0ljNGKTfWr4Tja9l41SUta9mpvTKi+6wClFt1es3WbryYpPuzGPs54pmVezslZ7tONT
+UgLYuK0M1Yca1KImzNGj5aGMR22pZx0g9JcIR8Lo07NYuG9ll5I/FRUVja+++ip5pA4eDrd7i22O
+Tp064Y477hC6nmaEk7FXUFDw31AodK7d3GzF0GpGt+JOIitUBO+0RSuleO+DHRHrz02GWwk3DDvk
+Z3KduInryQEdJ5dEct+q9VuwYfNOrht3E3q53bnJ61bcuSN+/6tr8PMpfwfFyygGYO6c+WE6BvzC
+IqU6WvTZ6iCymQgLPq/HMapO+WhWnrSIHEZhflaclLayzyKiCHaT4ZbIHjSEAySrNB7LReEFZ6e5
+6ORASKR8UqPIx5Jsz03vaKw6FuS6VWsSKtXy5cv3V1ZWroPr3kcIHORLnjVrlmEQVq5cScGmdWRo
+1tbWOnL7jPRUoT9HrFYRVkV/dc0hoW9a1UvQJzjSg83m+ukVF52J3z/5suqO9QhC0vK/Kqsa8cmi
+rzGgT4+44+Oj1yFcNG4Ml0R+PPDoP7F1Z7lazlNZf8Jy7WCdDR2JKHNIKN2dzt+1qECoCTTl0+vx
+xBODiMd4QQXcaR08yhmiau7GKu3avhGLeFKIM4ZsXHnxWC6Vm23jH1qpIQLGbm6DCbCqafBpqUHs
+VyurkE2ilPaxeDCm/lACIDGUqy87E5n8mdaJ9BSHmaD8nNt37Fan3Mi21UeoMHVeTrqQII4qD+/n
+/v37K/jb6sMVsPW1FBhbt251FHVOniURQeeGXW52BsoqQ5wIfHFURgArrzgovEw52elq9ql9VRNy
+FU++7lLUc4L8z7wlXMTXCw5JxnRaajIOHKzBa+8vwsTLzzHMI7eWcIoE+fHZozG4fwn+MfsDvPvx
+V9i9rxJ1dQ3KKqdSbHaazGJrWVCQjrhofl4Whg4oEVU/xowajNff/QR3P/QCl7QZ+tU5hApDQa5r
+xp+Jq8efIWo7zf98JbbsKENVdZ06X1+ZyipJscJpSoKkUnvqhCG98Ns7rkTf44pF7pQTUyLiLK+o
+xDebShEIZiDEQduzWyc8/YebsGrdVrzzyVKsXr8V+ysPiTEiFchLNopHigUA+Q1TJXgq0FDcqQC/
+mHghruXgoPtwAoak9mHF6m/5ef2udpbPihFZ2FM1NTUHCKdHBTiqqqosv6cUBbWzrq5XGmy6dzKW
+WfTyuvpM/KFs27kXu8oqUJCXJcDhBDYiTC/ntg/ecQ1uuvpCbN+1T5T+IW7WuUMeHn5yJp598V3M
+eetTXDvhPC4dGnQlbayNRbqfzh3y8du7rsXN1/yEE812rOdEtbNsP8oPVHGgKAvW0JwKqhfVuWM+
+unYuEEYkEVxqakpUHTr/9JF46vnXsL8mLJIgo5EZWUk8vPS80RjUt4co3f+L637CiXcH1m3cgW82
+lmLL9jLs3V8l8pRoHAIBP3KyMtC3pBgnj+iHs340FKnBJMG13ZzJVKd23oJFXEI1IDs/B3VNDeL4
+IQOO44ygOyZceBq27dqLtRtKsY7f60auiu7adwB1tCANLaDDmRblqvXo0hFDBx6H88eOQFcOkEPR
+eeVOKpAf6zduwdJVGxBMTovPhWO6eJVutTmtSqWdk4Gr86G2BPkOZ5wjIaPZkqjVLEMzcWqv9fyB
+LFyyGiOO7xPlC3bqEFPXD6ccnKzMNIzIyRQBN5rj7OUPdPignngmTFHfNzkxDEenwtzo9FB9XMD8
+gCkIRi07Kx1jTxkqGlNXbNUerHa8Nj+FHASkh1OqTMxG64gzThmCGXM/RVJWVlSdaOQqzjBOZEP6
+9UBjo5JaQ/c2bEBPDBvUS1Q8CQvVEGKNPErgpGAmSSiKf0BUHWyMTgByIk9So4hxzZz9DvyBVPEA
+iNDPHXMCwlyV1OIUtEBNr26dceFZJ4p7j4gM37CQvhki/T9ZcHXKdqA6uzRF19VNzu+B1MV/vfou
+qqsakNUhJy71J5qdK2rlqnSRQF6dJB3eitMt8lbpMyqtmlsagav3SeUotGj7vIXLUU+qjEey3M/q
+O+KuVLSAJuJQ6jTptt2KOiKNExWtdvS7x/9pUP+c+h2LD8hCklAjg550YZJWFPWlIgf0nVYWk4jM
+qhjz6BMGcLtCneGounnJczdqWD8R/9ByzsR8BNH/RvEq5onw69GcBjK6iRYobYQAQWqenOD8F0o5
+mf36e1j9TSlS09KETdS7e2f06tFJ9F9T10hFpZQfikmJew2HxTULuQSnCVUEJPLk1XCwNqszF91o
+glzO6zZswqw5HyAlKzdG+HHllI6+7YhUWXde1TT+J+I0y1ZvwlvzFhsm2CcCEqN3hgz2DKSnJolp
+l3PfXYQ/T5ut1nP1xoE+sXtRjW+1XL87uMIY3O84ZPI+EEFpXlhSy07hoGEs4n4tsaxYs+PCOvap
+FSlYtXodHnpsBgLpnGtzKdfQ1Iihg3tyOyhZjJHZ5aqtNRhlOkKKGOf9JzJmlFlMTOVXv30c1XVc
+raSSTDJzWQ/9BwYOe4DYpy2Tx+Yvz8xB6c4yTtgBV4ljJ+lysjKRnhIUKk+Ac7FHn30VT01/RQSy
+/D6fo8HnJDkT3UiadexYwO0nrewnEyAp7piLkq4dYkuJOQQ7WzNDUAPG1m2luPYXD6KyjvHPaUJ6
+kWPieK7OyRFmmYyQSCq62yZmPPLXu+7/KxYsXIX0nHzr2IpFkJExt9VE/8fAYRAYkvuOpFtv3bkP
+N9/7JCoOVIoUjITUMou55kxdnpjiK16fHw8+Ogt3PPCUmHJJrlpzTpIZAC0FhJmQKNu2e3EHUQ1d
+W2SSbB/y2kUsUvH1oGjNRoyFphQs/WolLrnmTmzcdgBZ2flKwTcuqZKTfOhWXCiCo4kymkSBQWNJ
+i/dQveGb7vot/jXnI2R06KwuGXeUi4rvEhzMVnJYb1TS8rNl63HlLQ9hzTcbRTZvkstUUj1hGR8k
+U2s2eQQgaO72+En3Cw8OGZk0uUeSEFcXqTWg0GY0ahyUij6T9IoIYmRC1aL4BHF2pptx1xYpoREm
+nZPsoiemvoALrroTm3dWIyuvUGQkMPX8wWASjuterBbDaJlt6HRtUoEpz+ojPqYX/OwXmPvmQmR2
+LIrVKfuebUd42TMWW5jegAtm7R2XIOIVy9duw4XX3Y9JV5yNCReeha4UZaeS/M2qcWwiYK+6fgbl
+G5HhbM4+JY5AwcgV3EC9YvIjOOPkgZh4xfk4acTgqBuWDF99TMTJO6K5G7XF6rWCBVT+dOu2HZj/
+6RdY9NVqQZSkWpALd+PWnfjwk88xYkg/MY9CzJMgI7+5WaUj5khPSlck4bAQaif/XHmgCq+//SGe
+ffF1rFi1GclZ+cjKSdHNsFSGtZFLsH+99gHOHzsShQX5AsA0js3NWs2r+GubmYRHrUZIdgWppxRn
+WfTlcsz815t444PP+Q8pyOpYHOMWiWgPjFkGWH8g4GihnFHHijwe9Y0R/Gnqa5j5yoc47aTBOGXk
+IPQqKUbHwgKRxakRLgGl/GA1DtXWomxvBb74ahXKKg7yh5geXY0vKpm4qkbfvf/ZGnz0+Sr069kZ
+Z54yjINkEPr37o4cfl6qaC7SKwSXNc0jUXOnwmLKphIf2bFrD77dvB3raO7KklVYu3Ebqg7WIzkj
+G8kpKeIYqvu0cctOXHHzwyguzBLrfQwf0hf9+5SgpFuRkGIUIFUWgZEEcKLu4ohCwKLIG7ejDhw4
+iNVcqi78Yjne/XCxUEU9SanIKCwSAUvZlKvmUQOn9/1lJp54brZwJ48aMQAD+bV7lXRFVmaG4PQi
+AKkGPPUpNwQSLROAALFy1XosW7lOrBuybM0m/htXq7IKBWhku2qHP1TJoXHQdu+o34t0fwZq6sJ4
+5e1FmP3mp5zjpojliYNJ3qh6QA+OOGNzsywqADY3NSMtO1dEe8U6fHruR2kV/DWdEy359NdvKcfK
+ta8h+MKbyM1MQX5eJnpyYu1QkCPW9qAAHNVSIlrbX1mlTAeuq0f5/krs2nsAu/dUcDumAQdrakHT
+R3wpadz4TUV2YRaUtUdiXiHi1rLsw+6Kesx87VO8MHe+WIYsh1+3uGM+ingr4KqXn0tAmoFHDIII
+cl9FpXCn7iuvxNbtu0XAtKKyBpFmfs60DGTkdhKSU2ayzaxGJu45JSUVh+oj+HDhGrz38TIuMQNi
+hd0O+VnoWlQo7pkkUjqXsBRQVYLANcKNS6+lu/diy/Y9/N75ONQ1wRNMRUpGgbK0GYNj0qA7U2xd
+UYd2p7mWBFKoslwinbXT073RggERxHKkW2IKMQUkSelKBidXQ6rqOCerjRjkNdWClSQfgunJSMn0
+6ErAGO9V1qVy09JdXk6AxLVJ+lTWhlFevR+rNuxRy+tri10qrlcqGyqmG5JE4dKF1DwfvXqDyMhO
+i96rk/vaI5YLS4rOygvx6+yuaMCOvdsQXrpRLeEj667L+HV9IgBI1/b6qaqgXxClmM+hruEuM/fq
+4pLKcHx+miWZJp4ZRfH3Ve3DivW7IZN9JCvLL2j3LDRdr3J9SgPx0fWDWchM85oCek5EIjsCg9JW
+sjLTDatAtRUErQ0WtkpypKamxl2tpqbG4y5VmDDYCvPzsH3vdocFbGRnX4E6VsSl6M/vZh3bEqhk
+AEkMKJzwaH07RadzHmBzFmtrDFx1V5ISfl38xSr3S1vK3ngsi1OfWnpxAmqSWO3Vrzdq4liVHJf2
+IVsTfCu6QvcX4OoYefKaw5FE56gnujgzOxzgkHSgsP2tvr6+NinJeb0mmlWWkZ6O3j27YNGyDWBi
+hSPmABBYlw49TP4zM1A0sDgSO2s7UcSG0hzElPGdbdH7lRPLB2e2t2HPq0wb5ZD14XZkIVcnE1HL
+JIU4tMZaEUBgrXHlWtXENk/g9Ojfc3DQpPaQ2/iR+D57zIkiNds4Qcm6xU3jjGusHVv8zE2quevW
+5DaKfZlpC88wQ2uFLzDxP9ex0MYXLWuy83mdnnW4uRlnnTaC25KprgvPkF27c+fOgzo1w9ys6NSJ
+phMChxMgJItOkB7gmT9//u5wOFzuZoxT/tFpJ4/AheecjLqD1QnaXszlt8PUbGsrxe9GBr2spkbI
+6vtEW0LdsVEtDISX0G0x5yXIWtu0qcGt3Gq5od+nV1dcdelZ0SLVbnbEggULtqsM2atqQV6NHnWv
+VoCxA4qjWmUFDJheJavPN9xwQ3W3bt2+OvXUU4u4FHH0ZnFrFQ9N+T9Q5sSb85YI41ab6JMYQA6X
+P5C1UCrH7xlpsweFWesmRySGxo7oYcQYRG0xrk4N6NcTUx++DQW5GWJ5BKfRJjdxWVlZ47Jly75R
+B8tvwUqcPpsH2FIp9FpQnOQiMfTINDQODjZmzJiLGtU52HZGLOnSFGw7/4xR6Nuri8horao+JPzv
+iXkZvmtnufTdE+TRAIxWHRIr7kDMsGf3TvjFpEvx0D0TUdwpF7V1jY71NUhC0hTtOXPmrHzjjTdm
+QqlR5XFpVoze7r1k+4ULOMzvza/BTz/9dO6oUaNOpDLwbm40kXJAbky+y+KlqzHxzj+hpr7ZcWXW
+9nDRHVniP1q3xGruHq6trrYB99zyM9x543gRcKznDJIi9G7PlJw+nPk2Dxo06EEuPebwrxoQq5ti
+XmaXufzmpMAyj4MhbmdneE06nk9tJNrkiRMn/q6urq7KXInETsWiuQk0v4ACTxJrbtEaHYfvobIf
+QEOb8rjavPFnX8QlRSDJK2oG2E2H1m/ENFNSUnD77be/w4GxUCXyJLX5dc1nok+vhQ0iudggromH
+kulkZpD4TM2/ZcuWDT/60Y/uCYVCtZQZmugWEnMdWrfCbMsM0sSM3f9pmdFWUMjt0ABRdC8iywlp
+ACQxiJ5uvvnmebNmzXoRSmEFMyj8FjRpBQr9e0dXbqKqlcfhIgapsnr16gVDhgy5adGiResyMzPF
+jSX8QFhb+D07JigcvWptAIXFsuNtVemkBNRXkhYZGRkUZG4aP37869OmTXuOf12qs5nNLRE6TcRr
+1aoIW0I2yY4dO5affvrpN3Kkz9i3b19lTk6OSBX3Rcu/eCwjRIlNiHGIi0A2tWN/2kJBrR5Xkuie
+9kCoDFgU/TbbkUQjpJZnZYl6XGzGjBnrBgwY8Cg3wP/BP283MfZE4hqJRtEdXblt4bOyzhWm3fnB
+Z5555vHp06e/M27cuHMmTZp0Mr/JHp07d06mAdAb3jlU4SIQhDfUbuzpKPMGfY83T4JKeIKODr8v
+CI8/gnQuEXz+IHJyglEblOatV1VVRbh6Xvnaa69tmDNnzpKdO3cu4z/v4o3coBGdDGOm94ka2y1y
+y9i5cT0uNocnwaYdm8MlRtehQ4f2KSws7Jyamprr5xv/LlBXXx98850FtcEOQ844Ro0/jK13QdP7
+g/qVZDWHI0RLkdra2v0cGAfWrl1beuDAAVKdynijelAhC6uFtcDCibgcawUi5gYOycUob+1nGgya
+VRRQjShiHbRoB6X91sI62Hhs+9/aIqpBna3SRESNWZB0aFJfZQe3rNwOn50kDGvvOEdLf5NsgjSu
+of1j2/9QoMU+mu0Ut0g0ltHqOIeUgIoFB5C0ttklg9mlrBzb/rcBYgYF4LpAQhs9AvbXjL5KNjaI
+E6FKCX5u6TGAe4j/2Pa/LT0SAYrb55YcAyuJ4UR4ieaetNerk5Q4BowfFkCsQGIHnPZ4dXqPlmT2
+SQmCqK37HgPFMZC4Acftt5bua/ldQqsQt+I3qZ3Pd2z7YYOkLb+19nytJsb2IOJjQDi2tQdgDts5
+DjeBHgPAse37ABzL7f8LMADD8AGv7pVSOwAAAABJRU5ErkJggg==
+------=_NextPart_000_AA30_94D3FF7F.A8B8AD81--

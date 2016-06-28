@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>iScroll Demo</title>
+	<link rel="stylesheet" type="text/css" href="../../../assets/css/render.css">
+	<style>	</style>
+	<!--<script  type="text/javascript" src="../../../assets/lib/iscroll/iscroll_v5-1-2.js"></script>-->
+	<script  type="text/javascript" src="../../../assets/lib/iscroll/iscroll-probe.js"></script>
+	<script  type="text/javascript" src="../../../assets/lib/jquery/jquery-2.1.1.js"></script>
+	<script type='text/javascript'>
+	   
+	   function beforeScrollStart () {
+	   	console.log('beforeScrollStart');
+	   }
+	   
+	   function scrollCancel () {
+	   	console.log('scrollCancel');
+	   }
+	   
+	   function scrollStart () {
+	   	console.log('scrollStart');
+	   }
+	   
+	   function scrolling01 () {
+	   	console.log("scroller01 is scrolling ....");
+	   	$('#indicator01_directionX').html(this.directionX);
+	   	$('#indicator01_directionY').html(this.directionY);
+	   	$('#indicator01_maxScrollX').html(this.maxScrollX);
+	   	$('#indicator01_maxScrollY').html(this.maxScrollY);
+	   	$('#indicator01_scrollerHeight').html(this.scrollerHeight);
+	   	$('#indicator01_wrapperWidth').html(this.wrapperWidth);
+	   	$('#indicator01_x').html(this.x);
+	   	$('#indicator01_y').html(this.y);	   	
+	   }
+	   
+	   function scrolling02 () {
+	   	console.log("scroller02 is scrolling ....");
+	   	$('#indicator02_directionX').html(this.directionX);
+	   	$('#indicator02_directionY').html(this.directionY);
+	   	$('#indicator02_maxScrollX').html(this.maxScrollX);
+	   	$('#indicator02_maxScrollY').html(this.maxScrollY);
+	   	$('#indicator02_scrollerHeight').html(this.scrollerHeight);
+	   	$('#indicator02_wrapperWidth').html(this.wrapperWidth);
+	   	$('#indicator02_x').html(this.x);
+	   	$('#indicator02_y').html(this.y);	   	
+	   }
+	   
+	   function scrolling03 () {
+	   	console.log("scroller03 is scrolling ....");
+	   	$('#indicator03_directionX').html(this.directionX);
+	   	$('#indicator03_directionY').html(this.directionY);
+	   	$('#indicator03_maxScrollX').html(this.maxScrollX);
+	   	$('#indicator03_maxScrollY').html(this.maxScrollY);
+	   	$('#indicator03_scrollerHeight').html(this.scrollerHeight);
+	   	$('#indicator03_wrapperWidth').html(this.wrapperWidth);
+	   	$('#indicator03_x').html(this.x);
+	   	$('#indicator03_y').html(this.y);	   	
+	   }
+	   
+	   function scrolling04 () {
+	   	console.log("scroller04 is scrolling ....");
+	   	$('#indicator04_directionX').html(this.directionX);
+	   	$('#indicator04_directionY').html(this.directionY);
+	   	$('#indicator04_maxScrollX').html(this.maxScrollX);
+	   	$('#indicator04_maxScrollY').html(this.maxScrollY);
+	   	$('#indicator04_scrollerHeight').html(this.scrollerHeight);
+	   	$('#indicator04_wrapperWidth').html(this.wrapperWidth);
+	   	$('#indicator04_x').html(this.x);
+	   	$('#indicator04_y').html(this.y);	   	
+	   }
+	   
+	   function scrollEnd () {
+	   	console.log('scrollEnd');
+	   }
+	   
+	   function flick () {
+	   	console.log('flick');
+	   }
+	   
+	   function zoomStart () {
+	   	console.log('zoomStart');
+	   }
+	   
+	   function zoomEnd () {
+	   	console.log('zoomEnd');
+	   }
+	   
+	   var defaultOptions1 = {
+	     	/* 滚动条特效	*/
+		    scrollbars: true,            //取值：true-使用滚动条 、custom-自定义
+		    fadeScrollbars: false,        //不使用时是否隐藏：true:隐藏， false：不隐藏
+		    interactiveScrollbars:false,  //滚动是否可以拖动：true:可以， false： 不可以
+		    resizeScrollbars: false,      //滚动的尺寸是否随着wrapper和scroller之间的高宽比例而改变。  true: 改变， false：不改变
+		    shrinkScrollbars: 'scale',    //scale:  , clip:  , false:
+		    
+		    /* 滚动特效	*/
+		    bounce: true,  //true:有反弹回收效果， false：无反弹回收效果
+		    bounceEasing: "elastic",  // quadratic: 、 circular：、  back ： 来回晃动一次复原位、 bounce：边缘的一侧来回多次惯性晃动、   elastic： 边缘的两侧来回多次惯性晃动
+		    bounceTime :  1000,  //特效时长
+		    
+		    /* 支持的交互方式 */
+		    click: true,
+		    tap: true,
+		    mouseWheel: true,
+		    disableMouse: false,
+		    disablePointer: false,
+		    disableTouch: false,
+		    preventDefault: true, // true:prevent event bubble , false: allow event bubble.
+		    
+		    /* 滚动方向*/
+		   // eventPassthrough:false,  // true:allow vertical moving , false: allow horizontal moving.
+		    freeScroll: true,   //是否允许平面内滑动
+		    scrollX: true,  //是否允许沿X轴滑动
+		    scrollY: true,  //是否允许沿Y轴滑动
+		    
+		    /* 滚动区域开始偏移位置	*/
+		    startX: 0, 		    
+		    startY: 0		    
+	   }
+	   
+	   var defaultOptions2 = {
+		    //bounce: true,
+	   		//bounceLock: true,  //当内容少于滚动是否可以反弹，这个实际用处不大  
+	   		//momentum: true, //动量效果，拖动惯性
+	   		
+	   		// checkDOMChanges:true,
+	   		// hScrollbar: true,
+    		// vScrollbar: true,
+    		// hideScrollbar:false,
+		    // scrollX: true,
+		    // scrollY: true
+		    
+		    "hScroll" : true,
+                   "vScrollbar" : true,
+                   "checkDOMChanges":true,
+                   "hideScrollbar":false
+	   }
+	   
+	   var defaultOptions3 = {
+		    scrollX: true,
+		    scrollY: true,
+		    probeType: 3,  //1:拖动时断断续续有效，松开无效 , 2:拖动时一直有效，松开无效 ， 3：像素敏感，位置变化就触发。
+		    startX: 0, 
+		    startY: -22	
+	   }
+	   
+	   var defaultOptions4 = {
+		    scrollX: true,
+		    scrollY: true,
+		    probeType: 3,  //1:拖动时断断续续有效，松开无效 , 2:拖动时一直有效，松开无效 ， 3：像素敏感，位置变化就触发。
+		    startX: 0, 
+		    startY: 0	
+	   }
+	   
+  	   function _page_Loaded () {
+  	   	  
+		  var myScroll_01 = window.myScroll_01 = new IScroll("#wrapper01", defaultOptions1);
+		  myScroll_01.on('scrollStart', scrollStart);
+		  myScroll_01.on('scroll', scrolling01);	
+		  myScroll_01.on('scrollEnd', scrollEnd);
+		  console.dir(myScroll_01);
+		  
+		  var myScroll_02  = window.myScroll_02 = new IScroll("#wrapper02", defaultOptions2);
+		  // myScroll_02.on('beforeScrollStart', beforeScrollStart);
+		  // myScroll_02.on('scrollCancel', scrollCancel);
+		  // myScroll_02.on('scrollStart', scrollStart);
+		  myScroll_02.on('scroll', scrolling02);
+		  // myScroll_02.on('scrollEnd', scrollEnd);
+		  // myScroll_02.on('flick', flick);
+		  // myScroll_02.on('zoomStart', zoomStart);
+		  // myScroll_02.on('zoomEnd', zoomEnd);
+		  console.dir(myScroll_02);
+		  
+		  var myScroll_03 = window.myScroll_03 = new IScroll("#wrapper03", defaultOptions3);
+		  myScroll_03.on('scrollStart', scrollStart);
+		  myScroll_03.on('scroll', scrolling03);
+		  myScroll_03.on('scrollEnd', scrollEnd);
+		  console.dir(myScroll_03);
+		  
+		  var myScroll_04 = window.myScroll_04 = new IScroll("#wrapper04", defaultOptions4);
+		  myScroll_04.on('scrollStart', scrollStart);
+		  myScroll_04.on('scroll', scrolling04);
+		  myScroll_04.on('scrollEnd', scrollEnd);
+		  console.dir(myScroll_04);
+		  
+	   }
+	  
+	  document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+		
+	</script>
+</head>
+<body onload="_page_Loaded()">
+   <!--  1 -->	
+   <div >
+	   <div id="wrapper01" style='background-color:#33CCFF; width:200px; height:200px;'>
+	     <div id="scroller01">
+	     	滑块01
+	     </div>
+	   </div>
+   </div>
+   <br/><br/><br/>
+   <div id="indicator01"  style="width: 300px;height: 300px;background-color: #D9D8D8;"> <h3 style="color:red;">indicator01</h3>
+   		<p><strong>directionX:&nbsp;</strong><span id="indicator01_directionX"></span></p>
+   		<p><strong>directionY:&nbsp;</strong><span id="indicator01_directionY"></span></p>
+   		<p><strong>maxScrollX:&nbsp;</strong><span id="indicator01_maxScrollX"></span></p>
+   		<p><strong>maxScrollY:&nbsp;</strong><span id="indicator01_maxScrollY"></span></p>
+   		<p><strong>scrollerHeight:&nbsp;</strong><span id="indicator01_scrollerHeight"></span></p>
+   		<p><strong>wrapperWidth:&nbsp;</strong><span id="indicator01_wrapperWidth"></span></p>
+   		<p><strong>x:&nbsp;</strong><span id="indicator01_x"></span></p>
+   		<p><strong>y:&nbsp;</strong><span id="indicator01_y"></span></p>
+   </div>
+	<br><br><hr>
+	
+   <!--  2 -->	
+   <div >
+	   <div id="wrapper02" style='background-color:#33CCFF; width:200px; height:200px;'>
+	     <div id="scroller02">
+	     	滑块02
+	     </div>
+	   </div>
+   </div>
+   <br/><br/><br/>
+   <div id="indicator02"  style="width: 300px;height: 300px;background-color: #D9D8D8;"> <h3 style="color:red;">indicator02</h3>
+   		<p><strong>directionX:&nbsp;</strong><span id="indicator02_directionX"></span></p>
+   		<p><strong>directionY:&nbsp;</strong><span id="indicator02_directionY"></span></p>
+   		<p><strong>maxScrollX:&nbsp;</strong><span id="indicator02_maxScrollX"></span></p>
+   		<p><strong>maxScrollY:&nbsp;</strong><span id="indicator02_maxScrollY"></span></p>
+   		<p><strong>scrollerHeight:&nbsp;</strong><span id="indicator02_scrollerHeight"></span></p>
+   		<p><strong>wrapperWidth:&nbsp;</strong><span id="indicator02_wrapperWidth"></span></p>
+   		<p><strong>x:&nbsp;</strong><span id="indicator02_x"></span></p>
+   		<p><strong>y:&nbsp;</strong><span id="indicator02_y"></span></p>
+   </div>
+	<br><br><hr>
+	
+   <!--  3 -->	
+   <div >
+	   <div id="wrapper03" style='background-color:#33CCFF; width:200px; height:200px;'>
+	     <div id="scroller03">
+	     	滑块03
+	     </div>
+	   </div>
+   </div>
+   <br/><br/><br/>
+   <div id="indicator03"  style="width: 300px;height: 300px;background-color: #D9D8D8;"> <h3 style="color:red;">indicator03</h3>
+   		<p><strong>directionX:&nbsp;</strong><span id="indicator03_directionX"></span></p>
+   		<p><strong>directionY:&nbsp;</strong><span id="indicator03_directionY"></span></p>
+   		<p><strong>maxScrollX:&nbsp;</strong><span id="indicator03_maxScrollX"></span></p>
+   		<p><strong>maxScrollY:&nbsp;</strong><span id="indicator03_maxScrollY"></span></p>
+   		<p><strong>scrollerHeight:&nbsp;</strong><span id="indicator03_scrollerHeight"></span></p>
+   		<p><strong>wrapperWidth:&nbsp;</strong><span id="indicator03_wrapperWidth"></span></p>
+   		<p><strong>x:&nbsp;</strong><span id="indicator03_x"></span></p>
+   		<p><strong>y:&nbsp;</strong><span id="indicator03_y"></span></p>
+   </div>
+   <br><br><hr>
+	
+   <!--  4 -->	
+   <div >
+	   <div id="wrapper04" style='background-color:#33CCFF; width:200px; height:200px;'>
+	     <div id="scroller04">
+	     	滑块04
+	     </div>
+	   </div>
+   </div>
+   <br/><br/><br/>
+   <div id="indicator04"  style="width: 300px;height: 300px;background-color: #D9D8D8;"> <h3 style="color:red;">indicator04</h3>
+   		<p><strong>directionX:&nbsp;</strong><span id="indicator04_directionX"></span></p>
+   		<p><strong>directionY:&nbsp;</strong><span id="indicator04_directionY"></span></p>
+   		<p><strong>maxScrollX:&nbsp;</strong><span id="indicator04_maxScrollX"></span></p>
+   		<p><strong>maxScrollY:&nbsp;</strong><span id="indicator04_maxScrollY"></span></p>
+   		<p><strong>scrollerHeight:&nbsp;</strong><span id="indicator04_scrollerHeight"></span></p>
+   		<p><strong>wrapperWidth:&nbsp;</strong><span id="indicator04_wrapperWidth"></span></p>
+   		<p><strong>x:&nbsp;</strong><span id="indicator04_x"></span></p>
+   		<p><strong>y:&nbsp;</strong><span id="indicator04_y"></span></p>
+   </div>
+   <br><br><hr>
+   
+</body>
+</html>
+
